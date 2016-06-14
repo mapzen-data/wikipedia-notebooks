@@ -12,18 +12,19 @@ import wikipedia
 import time
 
 
-# In[2]:
+# In[2]: Import functions
 
 from all_functions import *
 
 
-# In[3]:
+# In[12]: Set path names
 
 input_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\new_data_joid_ids.csv"
+output_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\linkshere.txt"
 data = read_data(input_path)
 
 
-# In[7]:
+# In[5]: Find all link incoming to names in input data
 
 data_unique_names = find_unique(data,'wk:page')
 all_names = combine_page_names(data_unique_names)
@@ -33,4 +34,14 @@ for name in all_names:
     title_name, all_titles_linked = find_lks_name(request_data)
     linkshere_dictionary[title_name] = all_titles_linked
     time.sleep(10)
+
+
+# In[13]: Save as json in file
+
+with open(output_path, 'w') as outfile:
+    json.dump(linkshere_dictionary, outfile)
+
+
+
+
 
