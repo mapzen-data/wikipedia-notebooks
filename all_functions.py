@@ -250,7 +250,7 @@ def request_API_linkshere_by_name(name):
         data_request='null'
     return data_request
 
-def find_lks_name(request):
+def find_lks_name(request_data):
     all_titles_linked=[]
     data_entities=request_data['query']['pages']
     for item in data_entities:
