@@ -53,6 +53,11 @@ def get_page_name(row):
     wp_page=row['wk:page']
     return wp_page
 
+def parse_name_from_url(url):
+    right_hand_side=url.rsplit('/',1)
+    name=right_hand_side[1]
+    return name
+
 def combine_ids_for_API(data):
     only_wd_new = []
     all_ids=[]
@@ -261,3 +266,47 @@ def find_lks_name(request):
                 title_linked=entry['title']
                 all_titles_linked.append(title_linked)
     return name, all_titles_linked
+
+def get_wiki_page_wiki_id_SPARQL_data(data):
+    name_id=[]
+    for index, line in data.iterrows():
+        url=line['article']
+        url_name=str(url)
+        cid=line['cid']
+        if url_name!='nan':
+            wk_name=parse_name_from_url(url_name)
+            line['wk:page']=wk_name
+            wk_id = parse_name_from_url(cid)
+            line['wd:id'] = wk_id
+            name_id.append(line)
+        else:
+            name_id.append(line)
+    name_id_df=pd.DataFrame(name_id)               
+    return name_id_df
+
+def fix_coordinates_SPARQL_data(data):
+    dataframe_all=[]
+    for index, line in data.iterrows():
+        lat_lon=line['_coordinate_location']
+        lat_lon_str=str(lat_lon)
+        if lat_lon_str!='nan':
+            lat_lon_values=lat_lon_str[lat_lon_str.find("(")+1:lat_lon_str.find(")")]
+            lat_lon_values_split=lat_lon_values.rsplit(' ',1)
+            if len(lat_lon_values_split)==1:
+                dataframe_all.append(line)
+            else:
+                lat=lat_lon_values_split[1]
+                lon = lat_lon_values_split[0]
+                line['lat']=lat
+                line['lon']=lon
+                dataframe_all.append(line)
+        else:
+            dataframe_all.append(line)
+
+    dataframe_all_df = pd.DataFrame(dataframe_all)
+    return dataframe_all_df
+
+def SPARQL_create_page_id_coordinates(data):
+    id_page=get_wiki_page_wiki_id_SPARQL_data(data)
+    dataframe_all_df=fix_coordinates_SPARQL_data(id_page)
+    return dataframe_all_df
