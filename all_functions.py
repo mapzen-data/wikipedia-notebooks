@@ -34,11 +34,11 @@ def split_into_groups(data):
 
     return no_data, only_wd, only_wp, both_wd_wp  
     
-def _finditem(obj, key):
+def finditem(obj, key):
     if key in obj: return obj[key]
     for k, v in obj.items():
         if isinstance(v,dict):
-            item = _finditem(v, key)
+            item = finditem(v, key)
             if item is not None:
                 return item
             
@@ -131,7 +131,7 @@ def find_titles(data):
         data_entities=data['entities']
         for item in data_entities:
             split=data_entities[item]
-            title = _finditem(split,'title')
+            title = finditem(split,'title')
             final=(item,title)
             all_titles.append(final)
             titles=pd.DataFrame(all_titles)
@@ -146,9 +146,9 @@ def find_page_id_urls(data):
         data_entities=data['query']['pages']
         for item in data_entities:
             split=data_entities[item]
-            title = _finditem(split,'title')
+            title = finditem(split,'title')
             title_=title.replace(" ", "_")
-            ids = _finditem(split,'wikibase_item')
+            ids = finditem(split,'wikibase_item')
             final=(item,title_,ids)
             all_urls.append(final)
             urls=pd.DataFrame(all_urls)
@@ -317,8 +317,8 @@ def find_lks_name(request_data):
                 name=data_entities[item]['title']
             else:
                 split=data_entities[item]
-                linkshere = _finditem(split,'linkshere')
-                name=_finditem(split,'title')
+                linkshere = finditem(split,'linkshere')
+                name=finditem(split,'title')
                 for entry in linkshere:
                     title_linked=entry['title']
                     all_titles_linked.append(title_linked)
@@ -343,8 +343,8 @@ def find_actual_title_wordcount(data):
             new.append(row)
         else:
             for item in data_request['query']['search']:
-                title = _finditem(item,'title')
-                wordcount=_finditem(item,'wordcount')
+                title = finditem(item,'title')
+                wordcount=finditem(item,'wordcount')
                 row['wk:page']=title
                 row['wordcount'] = wordcount
                 new.append(row)
@@ -394,3 +394,63 @@ def SPARQL_create_page_id_coordinates(data):
     id_page=get_wiki_page_wiki_id_SPARQL_data(data)
     dataframe_all_df=fix_coordinates_SPARQL_data(id_page)
     return dataframe_all_df
+
+def request_API_name_all_languages(name):
+    try:
+        request = "https://en.wikipedia.org/w/api.php?action=query&titles=%s&prop=langlinks&format=json" %(name)
+        result_request=requests.get(request)
+        data_request = json.loads(result_request.content)
+    except ValueError:
+        data_request='null'
+    return data_request
+
+def request_API_name_all_languages_continue(name,i):
+    try:
+        request = "https://en.wikipedia.org/w/api.php?action=query&titles=%s&prop=langlinks&format=json&llcontinue=%s" %(name,i)
+        result_request=requests.get(request)
+        data_request = json.loads(result_request.content)
+    except ValueError:
+        data_request='null'
+    return data_request
+
+def find_languages_name(request_data):
+    all_lang_linked={}
+    if request_data=='null' or 'error' in request_data.keys():
+        name=" "
+    else:
+        data_entities=request_data['query']['pages']
+        for item in data_entities:
+            if item=='-1':
+                name=" "
+            else:
+                split=data_entities[item]
+                item=  finditem(split,'title')
+                name = item
+                if 'langlinks' in split.keys():
+                    langlinks = finditem(split,'langlinks')
+                    for entry in langlinks:
+                        lang=entry['lang']
+                        name_in_lang=entry['*']
+                        all_lang_linked.update({lang:name_in_lang})
+    return name, all_lang_linked
+
+def execute_languages_in_dictionary_from_names(data):
+    all_names=combine_page_names(data)
+    all_titles_linked_final={}
+    language_dictionary={}
+    names_failed=[]
+    for name in all_names:
+        all_titles_linked_final={}
+        request_data=request_API_name_all_languages(name)
+        if request_data!='null' or 'error' in request_data.keys():
+            title_name,all_lang_linked=find_languages_name(request_data)
+            all_titles_linked_final.update(all_lang_linked)
+            while request_data!='null' and request_data.keys()[0]!='batchcomplete':
+                request_data=request_API_name_all_languages_continue(name,request_data['continue']['llcontinue'])
+                if request_data!='null' or 'error' in request_data.keys():
+                    title_name,all_lang_linked=find_languages_name(request_data)
+                    all_titles_linked_final.update(all_lang_linked)         
+        else:
+            names_failed.append(title_name)
+        language_dictionary.update({name:all_titles_linked_final})
+    return language_dictionary, names_failed

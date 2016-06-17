@@ -19,9 +19,9 @@ sys.path.insert(0, 'C:\Users\Olga\Documents\MAPZEN_data\Projects\wikipedia-noteb
 from all_functions import *
 
 
-# ## import WOF concordances file that you want to get wikidata ids for
+# ## import WOF file that you want to get wikidata ids for. Needs a 'wk:page' column and a 'wd:id' column - one of them filled and one with NaN values
 
-# In[38]:
+# In[3]:
 
 input_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\all_geonames_wof.csv"
 output_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\joid_ids_notnull.csv"
@@ -29,7 +29,7 @@ output_path_failed = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\all_fai
 batch_length = 50 ##Set the batch length you want to do API queries for
 
 
-# In[39]:
+# In[17]:
 
 #(no_data=neither wd:id or wp:page, only_wd=only wd:id, only_wp=only wk:page, both_wd_wp=both)
 data = read_data(input_path)
@@ -38,26 +38,32 @@ no_data, only_wd, only_wp, both_wd_wp = split_into_groups(data)
 
 # ## Find wp:page for the ones that have wd:id
 
-# In[53]:
+# In[ ]:
 
-result_id, names_failed = run_API_find_titles_in_batch(only_wd, batch_length) #API request for wikidata ids
-all_dataframes_only_wd, dataframe_failed = combine_dataframes_from_batch(result_id, names_failed) #combine all batches into one dataframe
-if len(dataframe_failed)!=0:
-    all_dataframes_only_wp_second,names_cant_find = execute_titles_from_ids_one_by_one(data,dataframe_failed)
-if len(all_dataframes_only_wp_second)!=0:
-    all_dataframes_only_wd=all_dataframes_only_wd.append(all_dataframes_only_wp_second)
+if only_wd['wd:id']!='NaN':
+    result_id, names_failed = run_API_find_titles_in_batch(only_wd, batch_length) #API request for wikidata ids
+    all_dataframes_only_wd, dataframe_failed = combine_dataframes_from_batch(result_id, names_failed) #combine all batches into one dataframe
+    if len(dataframe_failed)!=0:
+        all_dataframes_only_wp_second,names_cant_find = execute_titles_from_ids_one_by_one(data,dataframe_failed)
+    if len(all_dataframes_only_wp_second)!=0:
+        all_dataframes_only_wd=all_dataframes_only_wd.append(all_dataframes_only_wp_second)
+else:
+    all_dataframes_only_wd=only_wd
 
 
 # ## Find wd:id for the ones that have wp:page
 
 # In[56]:
 
-result_wp, names_that_failed = run_API_find_ids_in_batch(only_wp,batch_length)
-all_dataframes_only_wp, dataframe_names_failed = combine_dataframes_from_batch(result_wp, names_that_failed)
-if len(dataframe_names_failed)!=0:
-    all_dataframes_only_wp_second, names_cant_find = execute_ids_in_table_from_names_one_by_one(data,dataframe_names_failed)
-if len(all_dataframes_only_wp_second)!=0:
-    all_dataframes_only_wp=all_dataframes_only_wp.append(all_dataframes_only_wp_second)
+if only_wd['wk:page']!='NaN':
+    result_wp, names_that_failed = run_API_find_ids_in_batch(only_wp,batch_length)
+    all_dataframes_only_wp, dataframe_names_failed = combine_dataframes_from_batch(result_wp, names_that_failed)
+    if len(dataframe_names_failed)!=0:
+        all_dataframes_only_wp_second, names_cant_find = execute_ids_in_table_from_names_one_by_one(data,dataframe_names_failed)
+    if len(all_dataframes_only_wp_second)!=0:
+        all_dataframes_only_wp=all_dataframes_only_wp.append(all_dataframes_only_wp_second)
+else:
+    all_dataframes_only_wp=only_wp
 
 
 # ## Merge all the new dataframes ( wd:id, wp:page, both)
