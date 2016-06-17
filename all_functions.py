@@ -64,9 +64,9 @@ def combine_ids_for_API(data):
     data.index=range(len(data))
     for index, row in data.iterrows():
         if index != len(data)-1:
-            data_ids=get_id(row)+'|'
+            data_ids=str(get_id(row))+'|'
         else:
-            data_ids=get_id(row)
+            data_ids=str(get_id(row))
         all_ids.append(data_ids)
     return all_ids
 
@@ -80,11 +80,12 @@ def combine_page_names(data):
 
 def combine_page_names_for_API(names):
     all_names_API=[]
+    all_names_for_API=[]
     for index, item in enumerate(names):
         if  index != len(names)-1:
-            data_name=item+'|'
+            data_name=str(item)+'|'
         else:
-            data_name=item
+            data_name=str(item)
         all_names_API.append(data_name)
         all_names_for_API="".join(all_names_API)
     return all_names_for_API, names
@@ -124,19 +125,22 @@ def request_API_id_by_name(names_API, names):
 
 def find_titles(data):
     all_titles=[]
-    data_entities=data['entities']
-    for item in data_entities:
-        split=data_entities[item]
-        title = _finditem(split,'title')
-        final=(item,title)
-        all_titles.append(final)
-        titles=pd.DataFrame(all_titles)
-        titles.columns=['wd:id','wiki_page']
+    if data=='null' or 'error' in data.keys():
+        titles=[]
+    else:
+        data_entities=data['entities']
+        for item in data_entities:
+            split=data_entities[item]
+            title = _finditem(split,'title')
+            final=(item,title)
+            all_titles.append(final)
+            titles=pd.DataFrame(all_titles)
+            titles.columns=['wd:id','wiki_page']
     return titles
 
 def find_page_id_urls(data):
     all_urls=[]
-    if data=='null':
+    if data=='null' or 'error' in data.keys():
         urls= "null"
     else:
         data_entities=data['query']['pages']
@@ -155,10 +159,15 @@ def execute_title_in_table_from_ids(data):
     ids_data=combine_ids_for_API(data)
     request_data=request_API_title(ids_data)
     all_urls=find_titles(request_data)
-    result=data.merge(all_urls,on='wd:id')
-    result['wk:page']=result['wiki_page']
-    result=result.drop('wiki_page',1)
-    return result
+    names_failed=[]
+    if len(all_urls)!=0:
+        result=data.merge(all_urls,on='wd:id')
+        result['wk:page']=result['wiki_page']
+        result=result.drop('wiki_page',1)
+    else:
+        result=[] 
+        names_failed=ids_data
+    return result, names_failed
 
 
 def execute_ids_in_table_from_names(data):
@@ -174,17 +183,42 @@ def execute_ids_in_table_from_names(data):
         wof_items_merge=wof_items_merge.drop(['wiki_id'],1)
     return wof_items_merge, names_that_failed
 
+def execute_titles_from_ids_one_by_one(data, names_that_failed):
+    API_result_second_try=[]
+    ids_cant_find=[]
+    result=[]
+    for ids_data in names_that_failed:
+        API_result=request_API_title(ids_data)
+        all_names=find_titles(API_result)
+        if len(all_names)==0:
+            wof_items_merge=[]
+            ids_cant_find.append(ids_data)
+        else:
+            API_result_second_try.append(all_names)
+            
+    dataframe_list_second_try=[]
+    for i in range (len(API_result_second_try)):
+        if len(API_result_second_try[i])==0:
+            pass
+        else:
+            dataframe_list_second_try.append(API_result_second_try[i])
+            all_dataframes_only_wp_second = pd.concat(dataframe_list_second_try)
+            result=data.join(all_dataframes_only_wp_second.set_index( ['wd:id']) ,on='wd:id',how='inner',rsuffix='_right')
+            result['wk:page']=result['wiki_page']
+            result=result.drop('wiki_page',1)
+    return result, ids_cant_find
+
 
 def execute_ids_in_table_from_names_one_by_one(data, names_that_failed):
     API_result_second_try=[]
     names_cant_find=[]
-    for name in dataframe_failed:
+    for name in names_that_failed:
         API_result,names_that_failed=request_API_id_by_name(name,name)
         all_ids=find_page_id_urls(API_result)
         if len(all_ids)==4:
             wof_items_merge=[]
         else:
-            wof_items_merge=data.join ( all_ids.set_index( [ 'wk_name' ] ), on=[ 'wk:page' ], how='inner', rsuffix='_right' )
+            wof_items_merge=data.join ( all_ids.set_index([ 'wk_name' ]), on='wk:page' , how='inner', rsuffix='_right' )
             wof_items_merge['wd:id']=wof_items_merge['wiki_id']
             wof_items_merge=wof_items_merge.drop(['wiki_id'],1)
         API_result_second_try.append(wof_items_merge)
@@ -202,17 +236,21 @@ def execute_ids_in_table_from_names_one_by_one(data, names_that_failed):
 
 def run_API_find_titles_in_batch(data_with_ids, batch_size):
     result=[]
-    names_failed=[]
-    for i in range(0,len(data_with_ids)+1,batch_size):
+    ids_failed=[]
+    for i in range(0,len(data_with_ids),batch_size):
         only_wd_batch=data_with_ids[i:i+batch_size]
-        new_data = execute_title_in_table_from_ids(only_wd_batch)
+        new_data, names_failed = execute_title_in_table_from_ids(only_wd_batch)
         result.append(new_data)
-    return result, names_failed
+        if len(names_failed)!=0:
+            for item in names_failed:
+                new=item.replace("|", "")
+                ids_failed.append(new)
+    return result, ids_failed
 
 def run_API_find_ids_in_batch(data_with_titles, batch_size):
     result=[]
     names_failed=[]
-    for i in range(0,len(data_with_titles)+1,batch_size):
+    for i in range(0,len(data_with_titles),batch_size):
         only_wp_batch=data_with_titles[i:i+batch_size]
         new_data,names_that_failed = execute_ids_in_table_from_names(only_wp_batch)
         result.append(new_data)
@@ -223,27 +261,44 @@ def run_API_find_ids_in_batch(data_with_titles, batch_size):
 def combine_dataframes_from_batch(batch_result, names_failed):
     dataframe_list=[]
     dataframe_failed=[]
-    for i in range (len(batch_result)):
-        if len(batch_result[i])==0:
-            dataframe_failed=dataframe_failed+names_failed[i]
-        else:
-            dataframe_list.append(batch_result[i])
-    all_dataframes_final = pd.concat(dataframe_list)
+    if len(batch_result)!=1:
+        for i in range (len(batch_result)):
+            if len(batch_result[i])==0 and len(names_failed)!=0:
+                dataframe_failed=dataframe_failed+names_failed
+            elif len(batch_result[i])==0 and len(names_failed)==0:
+                dataframe_failed=dataframe_failed
+            else:
+                dataframe_list.append(batch_result[i])
+        all_dataframes_final = pd.concat(dataframe_list)
+    else:
+        all_dataframes_final=batch_result
+        dataframe_failed=names_failed
     return all_dataframes_final, dataframe_failed
 
 
 def execute_linkshere_in_table_from_names(data):
     all_names=combine_page_names(data)
     linkshere_dictionary={}
+    names_failed=[]
     for name in all_names:
-        request_data=request_API_linkshere_by_name(name)
-        title_name,all_titles_linked=find_lks_name(request_data)
-        linkshere_dictionary.update({name:all_titles_linked})
-    return linkshere_dictionary
+        all_titles_linked_final=[]
+        request_data=request_API_linkshere_by_name(name,'0')
+        if request_data!='null':
+            title_name,all_titles_linked=find_lks_name(request_data)
+            all_titles_linked_final.extend(all_titles_linked)
+            while request_data!='null' and request_data.keys()[0]!='batchcomplete':
+                request_data=request_API_linkshere_by_name(name,request_data['continue']['lhcontinue'])
+                if request_data!='null':
+                    title_name,all_titles_linked=find_lks_name(request_data)
+                    all_titles_linked_final.extend(all_titles_linked)
+            linkshere_dictionary.update({name:all_titles_linked_final})
+        else:
+            names_failed.append(name)
+    return linkshere_dictionary, names_failed
 
-def request_API_linkshere_by_name(name):
+def request_API_linkshere_by_name(name,i):
     try:
-        request = "https://en.wikipedia.org/w/api.php?action=query&prop=linkshere|pageprops&titles=%s&format=json" %name
+        request = "https://en.wikipedia.org/w/api.php?action=query&prop=linkshere|pageprops&titles=%s&lhcontinue=%s&format=json" %(name,i)
         result_request=requests.get(request)
         data_request = json.loads(result_request.content)
     except ValueError:
@@ -252,20 +307,49 @@ def request_API_linkshere_by_name(name):
 
 def find_lks_name(request_data):
     all_titles_linked=[]
-    data_entities=request_data['query']['pages']
-    for item in data_entities:
-        if item=='-1':
-            name=data_entities[item]['title']
+    if request_data=='null' or 'error' in request_data.keys():
+        name=[]
+    else:
+        data_entities=request_data['query']['pages']
+        for item in data_entities:
             all_titles_linked=[]
-        else:
-            split=data_entities[item]
-            linkshere = _finditem(split,'linkshere')
-            name=_finditem(split,'title')
-            all_titles_linked=[]
-            for entry in linkshere:
-                title_linked=entry['title']
-                all_titles_linked.append(title_linked)
+            if item=='-1':
+                name=data_entities[item]['title']
+            else:
+                split=data_entities[item]
+                linkshere = _finditem(split,'linkshere')
+                name=_finditem(split,'title')
+                for entry in linkshere:
+                    title_linked=entry['title']
+                    all_titles_linked.append(title_linked)
     return name, all_titles_linked
+
+def request_API_real_name(name):
+    try:
+        request = "https://en.wikipedia.org/w/api.php?format=json&action=query&list=search&srsearch=%s&srprop=wordcount&srlimit=1" %name
+        result_request=requests.get(request)
+        data_request = json.loads(result_request.content)
+    except ValueError:
+        data_request='null'
+    return data_request
+
+
+def find_actual_title_wordcount(data):
+    new=[]
+    for index, row in data.iterrows():
+        name = row['name']
+        data_request = request_API_real_name(name)
+        if data_request=='null' or 'error' in data_request.keys():
+            new.append(row)
+        else:
+            for item in data_request['query']['search']:
+                title = _finditem(item,'title')
+                wordcount=_finditem(item,'wordcount')
+                row['wk:page']=title
+                row['wordcount'] = wordcount
+                new.append(row)
+        new_df=pd.DataFrame(new)
+    return new_df
 
 def get_wiki_page_wiki_id_SPARQL_data(data):
     name_id=[]
