@@ -32,9 +32,10 @@ wof_country_latest=read_data(input_path)
 
 
 # In[5]:
-
-wof_country_latest['wk:page']=wof_country_latest['name']
-
+if 'wk:page' in wof_country_latest.columns:
+	pass
+else:
+	wof_country_latest['wk:page'] = wof_country_latest['name']
 
 # ## Run language command to get all languages for all names in dataframe 
 
