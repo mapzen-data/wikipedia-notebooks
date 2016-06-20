@@ -9,8 +9,8 @@ import pandas as pd
 import requests
 import json
 
-DATA_PATH = 'all_data_not_concordances'
-OUPUT_PATH = 'Language_outputs'
+DATA_PATH = 'DATA'
+OUPUT_PATH = 'OUTPUTS'
 # In[2]:
 
 import sys

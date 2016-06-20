@@ -14,8 +14,8 @@ import os
 
 import sys
 from all_functions import *
-DATA_PATH = 'all_data_not_concordances'
-OUPUT_PATH = 'Language_outputs'
+DATA_PATH = 'DATA'
+OUPUT_PATH = 'OUTPUTS'
 
 # ## Import dataset of interest :Needs a 'name' column with names
 input_path = os.path.join(DATA_PATH, sys.argv[1])
