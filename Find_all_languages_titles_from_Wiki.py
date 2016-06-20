@@ -7,23 +7,20 @@ import csv
 import pandas as pd
 import requests
 import json
-import numpy as np
 
 
 # In[2]:
 
 import sys
-sys.path.insert(0, 'C:\Users\Olga\Documents\MAPZEN_data\Projects\wikipedia-notebooks')
 from all_functions import *
-
 
 # ## Import dataset of interest :Needs a 'wk:page' column with wiki names
 
 # In[35]:
 
-input_path = "C:\Users\Olga\Documents\MAPZEN_data\whosonfirst-data\meta\\wof-country-latest.csv"
-output_path_names = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\all_languages_country.json"
-output_path_wofids = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\all_languages_country_wof.json"
+input_path = sys.argv[1]
+output_path_names = sys.argv[2]
+output_path_wofids = sys.argv[3]
 
 
 # In[4]:
@@ -64,8 +61,8 @@ for key, value in language_dictionary.iteritems():
 
 # In[36]:
 
-with open(output_path_wofids, 'w') as outfile:
-    json.dump(dictionary_wof_languages, outfile)
+with open(output_path_wofids, 'w') as outfile_2:
+    json.dump(dictionary_wof_languages, outfile_2)
 
 
 # In[ ]:
