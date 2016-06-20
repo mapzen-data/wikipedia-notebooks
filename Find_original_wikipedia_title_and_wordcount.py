@@ -7,23 +7,19 @@ import csv
 import pandas as pd
 import requests
 import json
-import numpy as np
+import os
 
 
 # In[6]:
 
 import sys
-sys.path.insert(0, 'C:\Users\Olga\Documents\MAPZEN_data\Projects\wikipedia-notebooks')
 from all_functions import *
-
+DATA_PATH = 'all_data_not_concordances'
+OUPUT_PATH = 'Language_outputs'
 
 # ## Import dataset of interest :Needs a 'name' column with names
-
-# In[7]:
-
-input_path = "C:\Users\Olga\Documents\MAPZEN_data\whosonfirst-data\meta\\wof-country-latest.csv"
-output_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\original_wiki_titles_wordcount_country.csv"
-
+input_path = os.path.join(DATA_PATH, sys.argv[1])
+output_path = os.path.join(OUPUT_PATH, sys.argv[2])
 
 # In[8]:
 

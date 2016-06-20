@@ -3,12 +3,14 @@
 
 # In[1]:
 
+import os
 import csv
 import pandas as pd
 import requests
 import json
 
-
+DATA_PATH = 'all_data_not_concordances'
+OUPUT_PATH = 'Language_outputs'
 # In[2]:
 
 import sys
@@ -18,9 +20,9 @@ from all_functions import *
 
 # In[35]:
 
-input_path = sys.argv[1]
-output_path_names = sys.argv[2]
-output_path_wofids = sys.argv[3]
+input_path = os.path.join(DATA_PATH, sys.argv[1])
+output_path_names = os.path.join(OUPUT_PATH, sys.argv[2])
+output_path_wofids = os.path.join(OUPUT_PATH, sys.argv[3])
 
 
 # In[4]:
