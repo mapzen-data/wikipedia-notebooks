@@ -7,8 +7,6 @@ import csv
 import pandas as pd
 import requests
 import json
-import numpy as np
-import wikipedia
 import time
 
 
