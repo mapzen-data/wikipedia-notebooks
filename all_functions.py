@@ -13,26 +13,12 @@ def read_data(path):
     return data
 
 def split_into_groups(data):
-    no_data=[]
-    only_wd = []
-    only_wp=[]
-    both_wd_wp = []
-    for index, row in data.iterrows():
-        if (isNaN(row['wd:id']) and isNaN(row['wk:page'])):
-            no_data.append(row)
-        elif (isNaN(row['wd:id'])==False and isNaN(row['wk:page'])):
-            only_wd.append(row)
-        elif (isNaN(row['wd:id']) and isNaN(row['wk:page'])==False):
-            only_wp.append(row)
-        else:
-            both_wd_wp.append(row)
+    no_data = data[data['wk:page'].isnull()&data['wd:id'].isnull()]
+    only_wp = data[data['wk:page'].notnull()&data['wd:id'].isnull()]
+    only_wd = data[data['wk:page'].isnull()&data['wd:id'].notnull()]
+    both_wd_wp = data[data['wk:page'].notnull()&data['wd:id'].notnull()]
+    return no_data, only_wd, only_wp, both_wd_wp
 
-    no_data=pd.DataFrame(no_data)
-    only_wd=pd.DataFrame(only_wd)
-    only_wp=pd.DataFrame(only_wp)
-    both_wd_wp=pd.DataFrame(both_wd_wp)
-
-    return no_data, only_wd, only_wp, both_wd_wp  
     
 def finditem(obj, key):
     if key in obj: return obj[key]
@@ -261,7 +247,7 @@ def run_API_find_ids_in_batch(data_with_titles, batch_size):
 def combine_dataframes_from_batch(batch_result, names_failed):
     dataframe_list=[]
     dataframe_failed=[]
-    if len(batch_result)!=1:
+    if len(batch_result)!=0:
         for i in range (len(batch_result)):
             if len(batch_result[i])==0 and len(names_failed)!=0:
                 dataframe_failed=dataframe_failed+names_failed
