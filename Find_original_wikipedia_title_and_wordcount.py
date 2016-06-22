@@ -18,7 +18,7 @@ from all_functions import *
 
 # ## Import dataset of interest :Needs a 'name' column with names
 input_path = sys.argv[1]
-output_path_names = sys.argv[2]
+output_path = sys.argv[2]
 
 if os.path.isfile(output_path):
     print 'File %s already exists, skipping...' % output_path
