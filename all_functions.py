@@ -137,9 +137,8 @@ def find_page_id_urls(data):
         for item in data_entities:
             split=data_entities[item]
             title = finditem(split,'title')
-            title_=title.replace(" ", "_")
             ids = finditem(split,'wikibase_item')
-            final=(item,title_,ids)
+            final=(item,title,ids)
             all_urls.append(final)
             urls=pd.DataFrame(all_urls)
             urls.columns=['wk_page_id','wk_name','wiki_id']
@@ -165,18 +164,13 @@ def execute_ids_in_table_from_names(data):
     name_data_for_API, names=combine_page_names_for_API(all_names)
     request_data, names_that_failed=request_API_id_by_name(name_data_for_API, names)
     all_ids=find_page_id_urls(request_data)
-    if len(all_ids)==4:
-        wof_items_merge=[]
-    else:
-        wof_items_merge=data.join ( all_ids.set_index( [ 'wk_name' ] ), on=[ 'wk:page' ],rsuffix='_right' )
-        wof_items_merge['wd:id']=wof_items_merge['wiki_id']
-        wof_items_merge=wof_items_merge.drop(['wiki_id'],1)
-    return wof_items_merge, names_that_failed
+    
+    return all_ids, names_that_failed
 
 def execute_titles_from_ids_one_by_one(data, names_that_failed):
     API_result_second_try=[]
     ids_cant_find=[]
-    result=[]
+    all_dataframes_only_wp_second=[]
     for ids_data in names_that_failed:
         API_result=request_API_title(ids_data)
         all_names=find_titles(API_result)
@@ -193,25 +187,17 @@ def execute_titles_from_ids_one_by_one(data, names_that_failed):
         else:
             dataframe_list_second_try.append(API_result_second_try[i])
             all_dataframes_only_wp_second = pd.concat(dataframe_list_second_try)
-            result=data.join(all_dataframes_only_wp_second.set_index( ['wd:id']) ,on='wd:id',how='inner',rsuffix='_right')
-            result['wk:page']=result['wiki_page']
-            result=result.drop('wiki_page',1)
-    return result, ids_cant_find
+    return all_dataframes_only_wp_second, ids_cant_find
 
 
 def execute_ids_in_table_from_names_one_by_one(data, names_that_failed):
     API_result_second_try=[]
     names_cant_find=[]
+    ll_dataframes_only_wp_second=[]
     for name in names_that_failed:
         API_result,names_that_failed=request_API_id_by_name(name,name)
         all_ids=find_page_id_urls(API_result)
-        if len(all_ids)==4:
-            wof_items_merge=[]
-        else:
-            wof_items_merge=data.join ( all_ids.set_index([ 'wk_name' ]), on='wk:page' , how='inner', rsuffix='_right' )
-            wof_items_merge['wd:id']=wof_items_merge['wiki_id']
-            wof_items_merge=wof_items_merge.drop(['wiki_id'],1)
-        API_result_second_try.append(wof_items_merge)
+        API_result_second_try.append(all_ids)
         if len(names_that_failed)>0:
             names_cant_find.append(names_that_failed)
             
@@ -221,7 +207,7 @@ def execute_ids_in_table_from_names_one_by_one(data, names_that_failed):
             pass
         else:
             dataframe_list_second_try.append(API_result_second_try[i])
-    all_dataframes_only_wp_second = pd.concat(dataframe_list_second_try)
+    all_dataframes_only_wp_second = dataframe_list_second_try
     return all_dataframes_only_wp_second, names_cant_find
 
 def run_API_find_titles_in_batch(data_with_ids, batch_size):

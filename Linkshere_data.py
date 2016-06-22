@@ -27,7 +27,7 @@ data = read_data(input_path)
 # In[5]: Find all link incoming to names in input data
 
 data_unique_names = find_unique(data,'wk:page')
-linkshere_dictionary={}
+linkshere_dictionary_all={}
 for i in range(0, len(data_unique_names),50):
     all_names_1=data_unique_names[i:i+50]
     linkshere_dictionary, names_failed = execute_linkshere_in_table_from_names(all_names_1)
