@@ -18,7 +18,6 @@ import os
 from all_functions import *
 input_path = sys.argv[1]
 output_path = sys.argv[2]
-output_path_wofids = sys.argv[3]
 
 # In[12]: Set path names
 
@@ -41,14 +40,7 @@ for i in range(0, len(data_unique_names),50):
 with open(output_path, 'w') as outfile:
     json.dump(linkshere_dictionary_all, outfile)
 
-dictionary_wof_linkshere={}
-for key, value in linkshere_dictionary_all.iteritems():
-    new_key=str(data[data['wk:page']==key]['id'].iloc[0])
-    dictionary_wof_linkshere.update({new_key:value})
 
-
-with open(output_path_wofids, 'w') as outfile_2:
-    json.dump(dictionary_wof_linkshere, outfile_2)
 
 
 

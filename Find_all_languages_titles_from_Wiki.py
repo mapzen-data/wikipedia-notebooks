@@ -16,7 +16,7 @@ from all_functions import *
 
 input_path = sys.argv[1]
 output_path_names = sys.argv[2]
-output_path_wofids = sys.argv[3]
+
 # ## Import dataset of interest :Needs a 'wk:page' column with wiki names
 if os.path.isfile(output_path_names):
     print 'File %s already exists, skipping...' % output_path_names
@@ -50,19 +50,7 @@ with open(output_path_names, 'w') as outfile:
 
 # In[32]:
 
-dictionary_wof_languages={}
-for key, value in language_dictionary.iteritems():
-    new_key=str(wof_country_latest[wof_country_latest['wk:page']==key]['id'].iloc[0])
-    dictionary_wof_languages.update({new_key:value})
 
-
-# In[36]:
-
-with open(output_path_wofids, 'w') as outfile_2:
-    json.dump(dictionary_wof_languages, outfile_2)
-
-
-# In[ ]:
 
 
 
