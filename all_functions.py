@@ -111,7 +111,9 @@ def request_API_id_by_name(names_API, names):
 
 def find_titles(data):
     all_titles=[]
-    if data=='null' or 'error' in data.keys():
+    if data=='null':
+        titles=[]
+    elif 'error' in data.keys():
         titles=[]
     else:
         data_entities=data['entities']
@@ -126,7 +128,9 @@ def find_titles(data):
 
 def find_page_id_urls(data):
     all_urls=[]
-    if data=='null' or 'error' in data.keys():
+    if data=='null':
+        urls= "null"
+    elif 'error' in data.keys():
         urls= "null"
     else:
         data_entities=data['query']['pages']
@@ -293,7 +297,9 @@ def request_API_linkshere_by_name(name,i):
 
 def find_lks_name(request_data):
     all_titles_linked=[]
-    if request_data=='null' or 'error' in request_data.keys():
+    if request_data=='null':
+        name=[]
+    elif 'error' in request_data.keys():
         name=[]
     else:
         data_entities=request_data['query']['pages']
@@ -325,7 +331,9 @@ def find_actual_title_wordcount(data):
     for index, row in data.iterrows():
         name = row['name']
         data_request = request_API_real_name(name)
-        if data_request=='null' or 'error' in data_request.keys():
+        if data_request=='null':
+            new.append(row)
+        elif 'error' in data_request.keys():
             new.append(row)
         else:
             for item in data_request['query']['search']:
@@ -401,7 +409,9 @@ def request_API_name_all_languages_continue(name,i):
 
 def find_languages_name(request_data):
     all_lang_linked={}
-    if request_data=='null' or 'error' in request_data.keys():
+    if request_data=='null':
+        name=" "
+    elif 'error' in request_data.keys():
         name=" "
     else:
         data_entities=request_data['query']['pages']
@@ -428,14 +438,20 @@ def execute_languages_in_dictionary_from_names(data):
     for name in all_names:
         all_titles_linked_final={}
         request_data=request_API_name_all_languages(name)
-        if request_data!='null' or 'error' in request_data.keys():
-            title_name,all_lang_linked=find_languages_name(request_data)
-            all_titles_linked_final.update(all_lang_linked)
-            while request_data!='null' and request_data.keys()[0]!='batchcomplete':
-                request_data=request_API_name_all_languages_continue(name,request_data['continue']['llcontinue'])
-                if request_data!='null' or 'error' in request_data.keys():
-                    title_name,all_lang_linked=find_languages_name(request_data)
-                    all_titles_linked_final.update(all_lang_linked)         
+        if request_data!='null':
+            if 'error' in request_data.keys():
+                names_failed.append(title_name)
+            else:
+                title_name,all_lang_linked=find_languages_name(request_data)
+                all_titles_linked_final.update(all_lang_linked)
+                while request_data!='null' and request_data.keys()[0]!='batchcomplete':
+                    request_data=request_API_name_all_languages_continue(name,request_data['continue']['llcontinue'])
+                    if request_data!='null':
+                        if 'error' in request_data.keys():
+                            names_failed.append(title_name)
+                        else:
+                            title_name,all_lang_linked=find_languages_name(request_data)
+                            all_titles_linked_final.update(all_lang_linked)         
         else:
             names_failed.append(title_name)
         language_dictionary.update({name:all_titles_linked_final})

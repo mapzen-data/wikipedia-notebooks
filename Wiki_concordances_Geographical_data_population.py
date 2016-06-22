@@ -58,10 +58,6 @@ countries = read_data("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\SPARQL
 countries_from_wiki=SPARQL_create_page_id_coordinates(countries)
 
 
-# In[41]:
-
-countries_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\countries_wiki.csv")
-
 
 # ## From wiki cities import wiki ID, wikipedia page, coordinates, elevation, population
 
@@ -75,10 +71,6 @@ cities = read_data("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\SPARQL_ci
 cities_from_wiki = SPARQL_create_page_id_coordinates(cities)
 
 
-# In[38]:
-
-cities_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\cities_wiki.csv")
-
 
 # ## From wiki towns import wiki ID, wikipedia page, coordinates, elevation, population
 
@@ -86,16 +78,6 @@ cities_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\citi
 
 towns = read_data("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\SPARQL_towns.csv")
 towns_from_wiki = SPARQL_create_page_id_coordinates(towns)
-
-
-# In[44]:
-
-towns_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\towns_wiki.csv")
-
-
-# In[ ]:
-
-
 
 
 # ## From wiki archaeological sites import wiki ID, wikipedia page, coordinates, elevation, population
@@ -110,15 +92,6 @@ SPARQL_archaeological_sites= read_data("C:\Users\Olga\Documents\MAPZEN_data\Proj
 archaeological_sites_wiki=SPARQL_create_page_id_coordinates(SPARQL_archaeological_sites)
 
 
-# In[54]:
-
-archaeological_sites_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\archaeological_sites_wiki.csv")
-
-
-# In[ ]:
-
-
-
 
 # ## From wiki villages import wiki ID, wikipedia page, coordinates, elevation, population
 
@@ -127,13 +100,6 @@ archaeological_sites_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\W
 villages = read_data("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\SPARQL_villages.csv")
 villages_from_wiki = SPARQL_create_page_id_coordinates(villages)
 
-
-# In[46]:
-
-villages_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\villages_wiki.csv")
-
-
-# In[ ]:
 
 
 
@@ -144,15 +110,6 @@ villages_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\vi
 
 neighborhoods = read_data("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\SPARQL_neighborhoods.csv")
 neighborhoods_from_wiki = SPARQL_create_page_id_coordinates(neighborhoods)
-
-
-# In[48]:
-
-neighborhoods_from_wiki.to_csv("C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\neighborhoods_wiki.csv")
-
-
-# In[ ]:
-
 
 
 

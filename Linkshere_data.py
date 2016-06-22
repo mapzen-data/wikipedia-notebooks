@@ -8,17 +8,20 @@ import pandas as pd
 import requests
 import json
 import time
+import sys
+import os
+
 
 
 # In[2]: Import functions
 
 from all_functions import *
-
+input_path = sys.argv[1]
+output_path = sys.argv[2]
+output_path_wofids = sys.argv[3]
 
 # In[12]: Set path names
 
-input_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\new_data_joid_ids.csv"
-output_path = "C:\Users\Olga\Documents\MAPZEN_data\Projects\Wiki\\linkshere.txt"
 data = read_data(input_path)
 
 
@@ -38,6 +41,15 @@ for name in all_names:
 
 with open(output_path, 'w') as outfile:
     json.dump(linkshere_dictionary, outfile)
+
+dictionary_wof_linkshere={}
+for key, value in linkshere_dictionary.iteritems():
+    new_key=str(data[data['wk:page']==key]['id'].iloc[0])
+    dictionary_wof_linkshere.update({new_key:value})
+
+
+with open(output_path_wofids, 'w') as outfile_2:
+    json.dump(dictionary_wof_linkshere, outfile_2)
 
 
 

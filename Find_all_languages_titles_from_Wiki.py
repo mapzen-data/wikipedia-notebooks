@@ -9,23 +9,18 @@ import pandas as pd
 import requests
 import json
 
-DATA_PATH = 'DATA'
-OUPUT_PATH = 'OUTPUTS'
 # In[2]:
 
 import sys
 from all_functions import *
 
+input_path = sys.argv[1]
+output_path_names = sys.argv[2]
+output_path_wofids = sys.argv[3]
 # ## Import dataset of interest :Needs a 'wk:page' column with wiki names
-
-# In[35]:
-
-input_path = os.path.join(DATA_PATH, sys.argv[1])
-output_path_names = os.path.join(OUPUT_PATH, sys.argv[2])
-output_path_wofids = os.path.join(OUPUT_PATH, sys.argv[3])
-
-
-# In[4]:
+if os.path.isfile(output_path_names):
+    print 'File %s already exists, skipping...' % output_path_names
+    sys.exit()
 
 wof_country_latest=read_data(input_path)
 
