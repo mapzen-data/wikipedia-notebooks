@@ -262,7 +262,7 @@ def execute_linkshere_in_table_from_names(data):
         if request_data!='null':
             title_name,all_titles_linked=find_lks_name(request_data)
             all_titles_linked_final.extend(all_titles_linked)
-            while request_data!='null' and request_data.keys()[0]!='batchcomplete':
+            while request_data!='null' and request_data.keys()[0]!='batchcomplete' and len(all_titles_linked_final)<2000:
                 request_data=request_API_linkshere_by_name(name,request_data['continue']['lhcontinue'])
                 if request_data!='null':
                     title_name,all_titles_linked=find_lks_name(request_data)
