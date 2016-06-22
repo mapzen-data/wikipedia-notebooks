@@ -14,12 +14,11 @@ import os
 
 import sys
 from all_functions import *
-DATA_PATH = 'DATA'
-OUPUT_PATH = 'OUTPUTS'
+
 
 # ## Import dataset of interest :Needs a 'name' column with names
-input_path = os.path.join(DATA_PATH, sys.argv[1])
-output_path = os.path.join(OUPUT_PATH, sys.argv[2])
+input_path = sys.argv[1]
+output_path_names = sys.argv[2]
 
 if os.path.isfile(output_path):
     print 'File %s already exists, skipping...' % output_path
