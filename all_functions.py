@@ -315,7 +315,10 @@ def request_API_real_name(name):
 def find_actual_title_wordcount(data):
     new=[]
     for index, row in data.iterrows():
-        name = row['name']
+        if 'name' in data.columns:
+            name = row['name']
+        else:
+            name = row['wk:page']
         data_request = request_API_real_name(name)
         if data_request=='null':
             new.append(row)
