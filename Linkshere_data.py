@@ -28,22 +28,21 @@ data = read_data(input_path)
 # In[5]: Find all link incoming to names in input data
 
 data_unique_names = find_unique(data,'wk:page')
-all_names = combine_page_names(data_unique_names)
 linkshere_dictionary={}
-for name in all_names:
-    request_data = request_API_linkshere_by_name(name)
-    title_name, all_titles_linked = find_lks_name(request_data)
-    linkshere_dictionary[title_name] = all_titles_linked
+for i in range(0, len(data_unique_names),50):
+    all_names_1=data_unique_names[i:i+50]
+    linkshere_dictionary, names_failed = execute_linkshere_in_table_from_names(all_names_1)
+    linkshere_dictionary_all.update(linkshere_dictionary)
     time.sleep(10)
 
 
 # In[13]: Save as json in file
 
 with open(output_path, 'w') as outfile:
-    json.dump(linkshere_dictionary, outfile)
+    json.dump(linkshere_dictionary_all, outfile)
 
 dictionary_wof_linkshere={}
-for key, value in linkshere_dictionary.iteritems():
+for key, value in linkshere_dictionary_all.iteritems():
     new_key=str(data[data['wk:page']==key]['id'].iloc[0])
     dictionary_wof_linkshere.update({new_key:value})
 
