@@ -297,9 +297,12 @@ def find_lks_name(request_data):
                 split=data_entities[item]
                 linkshere = finditem(split,'linkshere')
                 name=finditem(split,'title')
-                for entry in linkshere:
-                    title_linked=entry['title']
-                    all_titles_linked.append(title_linked)
+                try:
+                    for entry in linkshere:
+                        title_linked=entry['title']
+                        all_titles_linked.append(title_linked)
+                except Exception as e:
+                    print 'error', e
     return name, all_titles_linked
 
 def request_API_real_name(name):
