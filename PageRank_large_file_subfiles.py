@@ -1,7 +1,6 @@
 
 
 import networkx
-import PageRank
 import json
 import operator
 import sys
@@ -14,29 +13,34 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 allFiles = glob.glob(input_path + "\*.json")
-d={}
 link_dictionary = {}
 x=0
 for file_ in allFiles:
     with open(file_, 'r') as fp:
         link_dictionary[x] = json.load(fp)
         x+=1
-with open(input_path, 'r') as fp:
-    link_dictionary = json.load(fp)
-
 
 reversed_link_dictionary = []
-for pointed_to, points_to in link_dictionary.iteritems():
+for pointed_to, points_to in link_dictionary[0].iteritems():
     for node in points_to:
         reversed_link_dictionary.append((node, pointed_to))
 
-
 network = networkx.DiGraph(reversed_link_dictionary)
+
+for i in range(1, len(link_dictionary)):
+	reversed_link_dictionary_all = []
+	for pointed_to, points_to in link_dictionary[i].iteritems():
+	    for node in points_to:
+	        reversed_link_dictionary_all.append((node, pointed_to))
+
+
+	network.add_edges_from(reversed_link_dictionary_all)
 
 
 Page_rank_network=networkx.algorithms.pagerank(network)
 keys_interest=set(link_dictionary.keys())
-
+for i in range(len(link_dictionary)):
+    keys_interest.update(link_dictionary[i].keys())
 
 PageRank_nodes={}
 for key, value in Page_rank_network.iteritems():
