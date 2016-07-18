@@ -1,0 +1,2412 @@
+,wk_page_id,wk_name,wiki_id
+0,328123,"Takikawa, Hokkaido",Q842286
+1,328126,"Fukagawa, Hokkaido",Q817268
+2,12034210,Tokaimura nuclear accident,Q1377385
+3,12446895,Nayoro Station,Q901406
+4,328108,"Yūbari, Hokkaido",Q637145
+5,328304,"Yuzawa, Akita",Q633272
+6,1024982,Koishikawa,Q2666269
+7,328189,"Goshogawara, Aomori",Q496702
+8,925289,"Sumita, Iwate",Q1354773
+9,328386,"Hitachiōta, Ibaraki",Q838663
+10,1329899,Kamikawa,Q421911
+11,6940869,Isezakichō,Q6079788
+12,894568,"Yamamoto District, Akita",Q1155896
+13,1279226,Tama and Friends,Q2635100
+14,12429432,Pippu Station,Q872859
+15,328134,"Furano, Hokkaido",Q654738
+16,1350694,Nagai Station (Osaka),Q1044114
+17,1432645,"Yakumo, Hokkaido",Q1354242
+18,894957,"Zaō, Miyagi",Q1347874
+19,624548,"Asahi, Nagano",Q720461
+20,1435422,"Kutchan, Hokkaido",Q1204596
+21,35894656,Nangō-Nana-Chōme Station,Q8189775
+22,929075,"Higashitsugaru District, Aomori",Q1351946
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,14504859,Nishi Tokyo Bus,Q7040497
+3,1350694,Nagai Station (Osaka),Q1044114
+4,6940869,Isezakichō,Q6079788
+5,35894656,Nangō-Nana-Chōme Station,Q8189775
+6,12412763,Asahikawa Station,Q1073617
+7,1024982,Koishikawa,Q2666269
+8,1279226,Tama and Friends,Q2635100
+0,624486,"Takamori, Nagano",Q1203136
+1,2650016,"Kinkō, Kagoshima",Q1206156
+2,601525,"Miyoshi, Aichi",Q1023781
+3,1442857,"Nakasatsunai, Hokkaido",Q1210501
+4,329605,"Hirado, Nagasaki",Q328601
+5,459736,"Kawaminami, Miyazaki",Q964194
+6,459711,"Mimata, Miyazaki",Q769821
+7,1470959,"Tōon, Ehime",Q132412
+8,459772,"Hinokage, Miyazaki",Q1206723
+9,1442896,"Ainan, Ehime",Q980346
+10,1024982,Koishikawa,Q2666269
+11,459738,"Tsuno, Miyazaki",Q1205974
+12,333990,"Tsushima, Aichi",Q816736
+13,929239,"Higashisonogi, Nagasaki",Q942035
+14,6175279,"Unzen, Nagasaki",Q999453
+15,6967805,"Hikawa, Kumamoto",Q1184800
+16,17497485,Naka-ku,Q1062759
+17,12289503,"Yurihama, Tottori",Q1156158
+18,6940869,Isezakichō,Q6079788
+19,1438736,"Nakatonbetsu, Hokkaido",Q1211211
+20,2374361,"Uda, Nara",Q863747
+21,2649572,"Kimotsuki, Kagoshima",Q1350770
+22,366120,"Naniwa-ku, Osaka",Q861618
+23,19307633,"Isa, Kagoshima",Q15736
+24,12429432,Pippu Station,Q872859
+25,459745,"Kadogawa, Miyazaki",Q1205839
+26,1735326,"Nakashibetsu, Hokkaido",Q514324
+27,1350694,Nagai Station (Osaka),Q1044114
+28,624453,"Minowa, Nagano",Q1346975
+29,502430,"Kamiita, Tokushima",Q1350072
+30,7885697,"Nishiyodogawa-ku, Osaka",Q985765
+31,1633157,"Yoshinogawa, Tokushima",Q592500
+32,459856,"Kokonoe, Ōita",Q1184672
+33,468127,"Mashiki, Kumamoto",Q1206076
+34,1435469,"Nanporo, Hokkaido",Q1355427
+35,624441,"Shimosuwa, Nagano",Q1204211
+36,929228,"Saikai, Nagasaki",Q520267
+37,23332119,"Sakai-ku, Sakai",Q1042008
+38,3601870,"Soo, Kagoshima",Q858382
+39,468081,"Kikuyō, Kumamoto",Q1156423
+40,601562,Nishiizu,Q1203949
+41,17497314,Nishi-ku,Q296095
+42,1212699,"Gotō, Nagasaki",Q201659
+0,1956256,"Bandō, Ibaraki",Q583931
+1,878731,"Ōe, Yamagata",Q377816
+2,451304,"Zama, Kanagawa",Q145333
+3,12834785,Shin-Kiyosu Station,Q7497109
+4,878775,"Kawanishi, Yamagata",Q1349146
+5,329680,"Urasoe, Okinawa",Q695895
+6,328675,"Yamanashi, Yamanashi",Q840610
+7,5089576,"Hodogaya-ku, Yokohama",Q1192964
+8,799978,"Itako, Ibaraki",Q840598
+9,1024982,Koishikawa,Q2666269
+10,878710,"Nakayama, Yamagata",Q1347364
+11,333990,"Tsushima, Aichi",Q816736
+12,762972,"Yuzawa, Niigata",Q1204269
+13,328385,Jōsō,Q851149
+14,874439,"Goka, Ibaraki",Q680056
+15,6792777,"Toyama, Toyama",Q204266
+16,874430,"Yachiyo, Ibaraki",Q1203394
+17,2917439,"Yodogawa-ku, Osaka",Q490594
+18,328388,"Takahagi, Ibaraki",Q520428
+19,874342,"Miho, Ibaraki",Q1203179
+20,1931742,"Chikusei, Ibaraki",Q694322
+21,1438668,"Otoineppu, Hokkaido",Q599841
+22,451395,"Yonabaru, Okinawa",Q1351158
+23,328953,"Ena, Gifu",Q819653
+24,864971,"Matsubushi, Saitama",Q1346963
+25,872078,"Hitachiōmiya, Ibaraki",Q838681
+26,870799,"Iwafune, Tochigi",Q1203561
+27,7885706,"Tsurumi-ku, Osaka",Q490526
+28,601512,"Mihama, Aichi",Q1203828
+29,874320,"Hokota, Ibaraki",Q857297
+30,329381,"Uwajima, Ehime",Q845857
+31,245793,"Usa, Ōita",Q114147
+32,629968,"Yamanakako, Yamanashi",Q1204394
+33,328648,"Uozu, Toyama",Q819613
+34,1435338,"Okushiri District, Hokkaido",Q1185990
+35,329001,"Yaizu, Shizuoka",Q696783
+36,329087,"Yokkaichi, Mie",Q26410
+37,2305805,"Nakanoto, Ishikawa",Q1349436
+38,2141323,Mihama-ku,Q1075859
+39,4682076,Minamibōsō,Q873521
+40,1435501,"Numata, Hokkaido",Q1357023
+41,2197929,"Hōsu District, Ishikawa",Q1130979
+42,33003864,Hanamigawa-ku,Q1075882
+43,1438562,"Takasu, Hokkaido",Q1348693
+44,6082293,"Nada-ku, Kobe",Q1154555
+45,18418039,Tokishi Station,Q7813607
+46,328417,"Yaita, Tochigi",Q695926
+47,35894656,Nangō-Nana-Chōme Station,Q8189775
+48,451360,"Yomitan, Okinawa",Q973994
+49,328323,"Obanazawa, Yamagata",Q846342
+0,335940,Meguro,Q233903
+1,329078,"Owariasahi, Aichi",Q694893
+2,329159,"Kameoka, Kyoto",Q633996
+3,335944,"Ōta, Gunma",Q386179
+4,329387,"Ōzu, Ehime",Q386655
+5,329508,"Kashima, Ibaraki",Q467471
+6,329428,"Iizuka, Fukuoka",Q328605
+7,328476,"Misato, Saitama (city)",Q853061
+8,329607,"Matsuura, Nagasaki",Q850465
+9,328650,"Oyabe, Toyama",Q734366
+10,329682,"Itoman, Okinawa",Q860662
+11,451388,"Shimajiri District, Okinawa",Q1206950
+12,329297,"Tanabe, Wakayama",Q304266
+13,556177,"Ōyodo, Nara",Q629510
+14,329294,"Kainan, Wakayama",Q841309
+15,504225,"Sado, Niigata",Q499047
+16,5089663,"Kōhoku-ku, Yokohama",Q1358965
+17,29050625,Hyūgashi Station,Q5357695
+18,47860397,Takeshi Kizu,Q17129465
+19,329321,"Takahashi, Okayama",Q851675
+20,335947,Setagaya,Q231645
+21,329092,"Suzuka, Mie",Q207311
+22,451296,Sagamihara,Q209779
+23,6793258,Iwakuni,Q329797
+24,328680,"Ōtsuki, Yamanashi",Q386508
+25,329430,"Tagawa, Fukuoka",Q850332
+26,335933,Minato,Q1936302
+27,329399,"Kōchi, Kōchi",Q200251
+28,329065,"Tōkai, Aichi",Q622620
+29,629979,"Kitatsuru District, Yamanashi",Q1131446
+30,327993,"Kaga, Ishikawa",Q120103
+31,329455,"Koga, Ibaraki",Q836836
+32,328654,"Tonami, Toyama",Q526760
+33,335962,Suginami,Q232631
+34,329283,"Tenri, Nara",Q502196
+35,328620,"Sanjō, Niigata",Q817273
+36,328625,"Kamo, Niigata",Q857293
+37,329357,"Mine, Yamaguchi",Q749885
+38,329690,"Ōme, Tokyo",Q237683
+39,26631253,Settsu-shi Station,Q3970969
+40,45303213,List of Cultural Properties of Japan - archaeological materials (Kagawa),Q20983002
+41,329082,"Toyoake, Aichi",Q817280
+42,402500,Minami-ku,Q16877162
+43,329089,"Matsusaka, Mie",Q460829
+44,328945,"Tajimi, Gifu",Q819689
+45,328923,"Iida, Nagano",Q841129
+46,496876,"Iki, Nagasaki",Q861519
+47,328921,"Okaya, Nagano",Q838672
+48,328924,"Suwa, Nagano",Q846338
+0,1004381,"Rumoi, Hokkaido",Q714628
+1,329218,"Daitō, Osaka",Q386668
+2,329366,"Anan, Tokushima",Q485583
+3,335965,"Arakawa, Tokyo",Q232624
+4,328129,"Asahikawa, Hokkaido",Q200740
+5,328202,"Miyako, Iwate",Q502981
+6,201582,Narashino,Q318047
+7,328677,"Fujiyoshida, Yamanashi",Q647508
+8,329307,"Hamada, Shimane",Q432055
+9,328499,"Narita, Chiba",Q273798
+10,329296,"Arida, Wakayama",Q657843
+11,6793054,Gyōda,Q860659
+12,328636,"Gosen, Niigata",Q858364
+13,328220,"Kamaishi, Iwate",Q329790
+14,328995,"Fuji, Shizuoka",Q328613
+15,329012,"Gotemba, Shizuoka",Q735175
+16,451362,"Chatan, Okinawa",Q1351759
+17,6793291,"Imabari, Ehime",Q461020
+18,328324,Nan'yō,Q850496
+19,898169,"Kurihara, Miyagi",Q469189
+20,329617,"Arao, Kumamoto",Q626118
+21,747512,"Chikusa-ku, Nagoya",Q1207951
+22,870833,"Nasu, Tochigi",Q636416
+23,328952,"Hashima, Gifu",Q819595
+24,329222,"Habikino, Osaka",Q694308
+25,328130,"Shibetsu, Hokkaido",Q766942
+26,328444,"Hannō, Saitama",Q850472
+27,328502,Tōgane,Q637913
+28,536618,"Fujiidera, Osaka",Q634011
+29,328520,"Yachiyo, Chiba",Q328651
+30,329286,"Gojō, Nara",Q602571
+31,329312,"Gōtsu, Shimane",Q850395
+32,5228588,"Hinohara, Tokyo",Q219576
+33,329241,Amagasaki,Q213318
+34,329695,"Akishima, Tokyo",Q212494
+35,329243,"Akashi, Hyōgo",Q26406
+36,328214,"Tōno, Iwate",Q646766
+37,328233,Kesennuma,Q235746
+38,6793009,"Mito, Ibaraki",Q204249
+39,328391,"Toride, Ibaraki",Q638312
+40,328390,"Kasama, Ibaraki",Q845851
+41,328297,"Yokote, Akita",Q496479
+42,898195,"Tome, Miyagi",Q696401
+43,328381,"Ryūgasaki, Ibaraki",Q844138
+44,329661,"Akune, Kagoshima",Q15732
+45,328415,Ōtawara,Q386322
+46,742603,Kami-Amakusa,Q877232
+47,556165,"Asuka, Nara",Q752397
+48,6793202,"Fukuyama, Hiroshima",Q661038
+49,329353,"Hikari, Yamaguchi",Q823502
+0,329250,"Toyooka, Hyōgo",Q696388
+1,329059,"Kōnan, Aichi",Q820496
+2,329259,"Takarazuka, Hyōgo",Q823967
+3,329305,"Sakaiminato, Tottori",Q496431
+4,329681,Nago,Q117604
+5,556170,"Ōji, Nara",Q1346392
+6,329442,"Nakama, Fukuoka",Q847601
+7,329298,"Shingū, Wakayama",Q823526
+8,328303,"Oga, Akita",Q633935
+9,328384,"Shimotsuma, Ibaraki",Q533241
+10,328631,"Tsubame, Niigata",Q571051
+11,335981,"Nakano, Nagano",Q838652
+12,6176946,Saitō clan,Q2975353
+13,18392196,Suenohara Station,Q7634398
+14,18225701,Sōgō Rihabiri Center Station,Q841943
+15,329434,"Yame, Fukuoka",Q850492
+16,328163,"Abashiri, Hokkaido",Q305640
+17,328456,Kōnosu,Q734541
+18,204546,"Shimoda, Shizuoka",Q653402
+19,6940869,Isezakichō,Q6079788
+20,6793353,"Yatsushiro, Kumamoto",Q734479
+21,1279226,Tama and Friends,Q2635100
+22,329431,"Yanagawa, Fukuoka",Q585630
+23,12429432,Pippu Station,Q872859
+24,329638,"Taketa, Ōita",Q850508
+25,329372,"Zentsūji, Kagawa",Q191300
+26,329225,"Takaishi, Osaka",Q857218
+27,329263,"Takasago, Hyōgo",Q869037
+28,329067,"Ōbu, Aichi",Q384809
+29,3355709,"Shimogyō-ku, Kyoto",Q1077022
+30,329633,"Nakatsu, Ōita",Q861221
+31,329317,"Tamano, Okayama",Q850335
+32,329280,"Yamatotakada, Nara",Q838669
+33,329620,"Tamana, Kumamoto",Q861610
+34,329477,"Taku, Saga",Q877177
+35,328314,"Sakata, Yamagata",Q504690
+36,329356,Yanai,Q819678
+37,328624,"Ojiya, Niigata",Q819174
+38,329355,"Nagato, Yamaguchi",Q390812
+39,4426376,Sakai clan,Q2975346
+40,6793363,Miyakonojō,Q638301
+41,451095,Japanese addressing system,Q1757962
+42,328941,"Ōgaki, Gifu",Q384926
+43,329480,"Takeo, Saga",Q877220
+44,328944,"Takayama, Gifu",Q622594
+45,7885706,"Tsurumi-ku, Osaka",Q490526
+46,328948,"Nakatsugawa, Gifu",Q844052
+47,328926,"Komoro, Nagano",Q838657
+48,329281,Yamatokōriyama,Q118213
+0,329053,Gamagōri,Q694930
+1,1556536,"Fukutsu, Fukuoka",Q825700
+2,329160,"Jōyō, Kyoto",Q817276
+3,335964,Kita,Q230404
+4,329624,"Kikuchi, Kumamoto",Q911709
+5,768742,Shikokuchūō,Q838666
+6,478965,"Shime, Fukuoka",Q1206887
+7,451309,"Ayase, Kanagawa",Q792819
+8,329342,Higashihiroshima,Q653372
+9,328997,"Iwata, Shizuoka",Q386651
+10,329273,"Sasayama, Hyōgo",Q877169
+11,329320,Sōja,Q873536
+12,301350,"Hakata-ku, Fukuoka",Q1330839
+13,328523,Kamagaya,Q387365
+14,329324,"Bizen, Okayama",Q863741
+15,3958232,Beyond Limits Known,Q3198813
+16,556014,"Hino, Tottori",Q1156127
+17,329364,"Komatsushima, Tokushima",Q823493
+18,502472,"Mima, Tokushima",Q857828
+19,601542,"Kitashitara District, Aichi",Q605134
+20,478964,"Sasaguri, Fukuoka",Q1206130
+21,329711,"Higashikurume, Tokyo",Q317830
+22,329715,"Inagi, Tokyo",Q317847
+23,864891,"Hiki District, Saitama",Q1075201
+24,329323,"Niimi, Okayama",Q873596
+25,760974,"Fushimi-ku, Kyoto",Q1197771
+26,328449,"Higashimatsuyama, Saitama",Q823907
+27,10273395,"Aishō, Shiga",Q1346806
+28,328526,Futtsu,Q498023
+29,2205489,Asakura clan,Q1772267
+30,329146,"Ayabe, Kyoto",Q694370
+31,329063,"Inazawa, Aichi",Q389562
+32,1415483,Oyama,Q403249
+33,1126740,"Setouchi, Okayama",Q691691
+34,329319,"Ibara, Okayama",Q863754
+35,1227032,"Jōnan-ku, Fukuoka",Q948351
+36,12300361,"Akaiwa, Okayama",Q415372
+37,312537,Higashi-ku,Q904341
+38,312539,Chūō-ku,Q399089
+39,574303,"Takatsuki, Shiga",Q1042574
+40,5650153,"Ikuno-ku, Osaka",Q490520
+41,1249085,"Kokurakita-ku, Kitakyūshū",Q1042291
+42,21376343,Izumoshi Station,Q860288
+43,6793096,Komaki,Q389537
+44,328928,"Komagane, Nagano",Q838684
+45,329707,"Fussa, Tokyo",Q317813
+46,329665,"Izumi, Osaka",Q696412
+47,10496,Daigo,Q413514
+48,1854529,"Kami, Hyōgo (Mikata)",Q1155233
+49,860676,"Kamiichi, Toyama",Q1204302
+0,1435346,"Setana, Hokkaido",Q1036505
+1,1438618,Shimukappu,Q1356989
+2,12984260,"Shinhidaka, Hokkaido",Q1210679
+3,329622,"Yamaga, Kumamoto",Q861214
+4,556172,"Kawai, Nara",Q1203880
+5,328960,"Mizuho, Gifu",Q782103
+6,556171,"Kōryō, Nara",Q1346830
+7,556179,"Kurotaki, Nara",Q1203154
+8,329095,"Kameyama, Mie",Q646858
+9,1663998,"Daisen, Akita",Q695920
+10,1259013,"Inabe, Mie",Q281817
+11,629973,"Narusawa, Yamanashi",Q1204384
+12,331489,"Yamagata, Gifu",Q773311
+13,494401,"Ikata, Ehime",Q1206399
+14,595431,"Taki District, Mie",Q1042360
+15,743633,"Shirakawa, Gifu (village)",Q1203744
+16,4134967,"Ōshū, Iwate",Q386052
+17,870811,"Shioya, Tochigi",Q1203439
+18,601572,"Shimizu, Shizuoka",Q1203168
+19,6940869,Isezakichō,Q6079788
+20,1438766,"Esashi District, Hokkaido",Q1134212
+21,1716342,"Shiranuka, Hokkaido",Q1186129
+22,11406080,"Minamiise, Mie",Q1111031
+23,1435393,"Rankoshi, Hokkaido",Q1355416
+24,4531498,"Kama, Fukuoka",Q376901
+25,629971,"Fujikawaguchiko, Yamanashi",Q1004231
+26,864947,"Miyashiro, Saitama",Q155317
+27,504331,"Motosu, Gifu",Q844047
+28,601512,"Mihama, Aichi",Q1203828
+29,11552262,"Miyama, Fukuoka",Q990465
+30,870794,"Nogi, Tochigi",Q1203180
+31,329637,"Tsukumi, Ōita",Q840580
+32,1435443,"Shakotan, Hokkaido",Q1354431
+33,328191,"Misawa, Aomori",Q496401
+34,3880044,"Uki, Kumamoto",Q782825
+35,1782064,"Shiroishi-ku, Sapporo",Q647388
+36,1157114,Minami-Uonuma,Q850524
+37,1435414,"Rusutsu, Hokkaido",Q1354413
+38,12998322,"Hidaka District, Hokkaido",Q1210650
+39,6880466,"Iizuna, Nagano",Q772034
+40,479090,"Kanda, Fukuoka",Q1206876
+41,5031561,"Ōsaki, Miyagi",Q385892
+42,2210528,Yurihonjō,Q602903
+43,12466105,Ichikawamisato,Q1204453
+44,2920388,Izunokuni,Q863758
+45,6793080,"Ōizumi, Gunma",Q385080
+46,11552951,"Miyako, Fukuoka",Q1206868
+47,877572,"Furudono, Fukushima",Q1205868
+48,6793341,"Ōmura, Nagasaki",Q385591
+49,221785,Han Xiangzi,Q971072
+0,329424,"Nōgata, Fukuoka",Q861296
+1,2182089,"Aoi-ku, Shizuoka",Q1131483
+2,1797517,"Takatsu-ku, Kawasaki",Q1076736
+3,328248,"Natori, Miyagi",Q642018
+4,329234,"Ōsakasayama, Osaka",Q385864
+5,479043,"Ukiha, Fukuoka",Q850373
+6,329059,"Kōnan, Aichi",Q820496
+7,12078133,"Ōnan, Shimane",Q385598
+8,329304,"Kurayoshi, Tottori",Q642006
+9,1435325,"Kudō District, Hokkaido",Q1185403
+10,572777,"Kasagi, Kyoto",Q1203404
+11,1024982,Koishikawa,Q2666269
+12,1438698,"Rumoi District, Hokkaido",Q1134204
+13,328994,"Shimada, Shizuoka",Q605256
+14,898068,"Miyagi District, Miyagi",Q1131751
+15,624459,"Iijima, Nagano",Q522462
+16,478966,"Sue, Fukuoka",Q1205588
+17,860541,"Nyū District, Fukui",Q1204551
+18,6940869,Isezakichō,Q6079788
+19,1438700,"Tomamae, Hokkaido",Q1355396
+20,12289520,"Hokuei, Tottori",Q1205642
+21,12289549,"Hōki, Tottori",Q1204493
+22,862637,"Nakai, Kanagawa",Q1344396
+23,1279226,Tama and Friends,Q2635100
+24,4016506,"Hokuto, Hokkaido",Q842301
+25,12429432,Pippu Station,Q872859
+26,329209,"Izumisano, Osaka",Q852018
+27,44405513,"Shimanto, Kōchi (city)",Q166946
+28,1350694,Nagai Station (Osaka),Q1044114
+29,328250,Tagajō,Q653355
+30,601698,"Anpachi, Gifu",Q474384
+31,329229,"Sennan, Osaka",Q838809
+32,329410,"Sukumo, Kōchi",Q655258
+33,1438902,"Yūfutsu District, Hokkaido",Q1185954
+34,478996,"Onga, Fukuoka",Q1205554
+35,1858969,"Shisō, Hyōgo",Q877216
+36,312539,Chūō-ku,Q399089
+37,862641,"Matsuda, Kanagawa",Q1202796
+38,478958,"Nakagawa, Fukuoka",Q1206001
+0,12446895,Nayoro Station,Q901406
+1,328472,"Kitamoto, Saitama",Q857285
+2,328476,"Misato, Saitama (city)",Q853061
+3,27688382,"Aira, Kagoshima (town)",Q1045173
+4,1024982,Koishikawa,Q2666269
+5,483330,"Tōyō, Kōchi",Q1205386
+6,13723499,Hibiya Park,Q1378533
+7,459096,"Nagashima, Kagoshima",Q1350888
+8,556015,"Kōfu, Tottori",Q1156182
+9,884617,"Mikawa, Yamagata",Q1347453
+10,525406,"Asakuchi District, Okayama",Q1131820
+11,6940869,Isezakichō,Q6079788
+12,35842582,Nishi-Jūitchōme Station,Q3563700
+13,328952,"Hashima, Gifu",Q819595
+14,1279226,Tama and Friends,Q2635100
+15,16871698,Ōmorimachi Station,Q5362060
+16,12429432,Pippu Station,Q872859
+17,1350694,Nagai Station (Osaka),Q1044114
+18,148875,"Chigasaki, Kanagawa",Q633911
+19,329455,"Koga, Ibaraki",Q836836
+20,861129,"Kariwa, Niigata",Q1347334
+21,860623,"Tsubata, Ishikawa",Q432014
+22,478996,"Onga, Fukuoka",Q1205554
+23,147739,Shibuya,Q193638
+24,47836792,"Chiyoda, Tokyo",Q214051
+25,494393,"Uchiko, Ehime",Q1018717
+26,14504859,Nishi Tokyo Bus,Q7040497
+27,13038816,Kushiro Station (Hokkaido),Q1073704
+28,860659,"Anamizu, Ishikawa",Q1349353
+0,11727896,"Sotogahama, Aomori",Q1347655
+1,328249,"Kakuda, Miyagi",Q696425
+2,862341,"Sekikawa, Niigata",Q1204648
+3,12446895,Nayoro Station,Q901406
+4,14737554,Nerima-kasugachō Station,Q275521
+5,556173,"Kitakatsuragi District, Nara",Q1131013
+6,1024982,Koishikawa,Q2666269
+7,503516,Kaminoseki,Q1203220
+8,5103062,"Sakae-ku, Yokohama",Q1153916
+9,1993582,Hideki Irabu,Q485712
+10,6940869,Isezakichō,Q6079788
+11,1438736,"Nakatonbetsu, Hokkaido",Q1211211
+12,1337783,Empress of Japan,Q5374675
+13,1438579,"Pippu, Hokkaido",Q1355549
+14,872078,"Hitachiōmiya, Ibaraki",Q838681
+15,12429432,Pippu Station,Q872859
+16,1509825,"Misato, Akita",Q1349377
+17,1350694,Nagai Station (Osaka),Q1044114
+18,463456,"Ninomiya, Kanagawa",Q1354853
+19,864873,"Ranzan, Saitama",Q1358642
+20,543501,"Kunohe, Iwate",Q1205734
+21,23083140,Botou,Q894763
+22,329661,"Akune, Kagoshima",Q15732
+23,1279226,Tama and Friends,Q2635100
+24,35894656,Nangō-Nana-Chōme Station,Q8189775
+25,863104,"Nagara, Chiba",Q1203545
+26,329646,"Nichinan, Miyazaki",Q860669
+0,556095,"Susami, Wakayama",Q1346937
+1,3230349,"Nakagyō-ku, Kyoto",Q1075455
+2,624482,"Matsukawa, Nagano (Shimoina)",Q222825
+3,556137,"Yamabe District, Nara",Q1130739
+4,572760,"Otokuni District, Kyoto",Q376858
+5,4960006,"Amami, Kagoshima",Q453502
+6,601550,"Hoi District, Aichi",Q924766
+7,1350694,Nagai Station (Osaka),Q1044114
+8,18223503,Yagoto Station,Q855210
+9,624546,"Hata, Nagano",Q854697
+10,525394,"Hayashima, Okayama",Q1155361
+11,525457,"Maniwa District, Okayama",Q1131714
+12,12429432,Pippu Station,Q872859
+13,6940869,Isezakichō,Q6079788
+14,12446895,Nayoro Station,Q901406
+15,1442924,"Ashoro District, Hokkaido",Q1134193
+16,328320,"Nagai, Yamagata",Q847557
+17,1279226,Tama and Friends,Q2635100
+18,1024982,Koishikawa,Q2666269
+19,459166,"Minamitane, Kagoshima",Q1350969
+20,5494101,"Shimotsuke, Tochigi",Q851804
+0,329255,"Akō, Hyōgo",Q424813
+1,624496,"Hiraya, Nagano",Q1346768
+2,35894656,Nangō-Nana-Chōme Station,Q8189775
+3,624473,"Miyada, Nagano",Q959501
+4,12446895,Nayoro Station,Q901406
+5,1350694,Nagai Station (Osaka),Q1044114
+6,1157120,"Uonuma, Niigata",Q850352
+7,862828,Shisui,Q782157
+8,1157114,Minami-Uonuma,Q850524
+9,12429432,Pippu Station,Q872859
+10,6940869,Isezakichō,Q6079788
+11,864947,"Miyashiro, Saitama",Q155317
+12,1438799,"Bihoro, Hokkaido",Q1355074
+13,1024982,Koishikawa,Q2666269
+14,1184210,Kanbun,Q7901319
+15,4681793,Sanmu,Q873528
+16,1279226,Tama and Friends,Q2635100
+0,502429,"Itano, Tokushima",Q1350904
+1,328130,"Shibetsu, Hokkaido",Q766942
+2,12446895,Nayoro Station,Q901406
+3,4422042,"Kihoku, Mie",Q1203791
+4,556172,"Kawai, Nara",Q1203880
+5,1438846,"Okoppe, Hokkaido",Q1348729
+6,1024982,Koishikawa,Q2666269
+7,1432636,"Shikabe, Hokkaido",Q773727
+8,12289503,"Yurihama, Tottori",Q1156158
+9,468173,"Reihoku, Kumamoto",Q1184688
+10,6940869,Isezakichō,Q6079788
+11,329652,"Ebino, Miyazaki",Q374701
+12,1279226,Tama and Friends,Q2635100
+13,10608431,Asakuchi,Q990353
+14,12429432,Pippu Station,Q872859
+15,864918,"Kamikawa, Saitama",Q1346757
+16,1350694,Nagai Station (Osaka),Q1044114
+17,502430,"Kamiita, Tokushima",Q1350072
+18,860722,"Toga, Toyama",Q11396945
+19,1438800,"Tsubetsu, Hokkaido",Q1357133
+20,1432646,"Oshamambe, Hokkaido",Q1354333
+21,328520,"Yachiyo, Chiba",Q328651
+22,1442951,"Shihoro, Hokkaido",Q1210187
+23,1438787,"Rishiri, Hokkaido",Q1355370
+24,312539,Chūō-ku,Q399089
+25,494479,"Utazu, Kagawa",Q1156290
+26,329709,"Higashiyamato, Tokyo",Q390788
+0,12446895,Nayoro Station,Q901406
+1,624581,"Shimotakai District, Nagano",Q1130962
+2,556055,"Kudoyama, Wakayama",Q1354976
+3,1024982,Koishikawa,Q2666269
+4,328997,"Iwata, Shizuoka",Q386651
+5,329320,Sōja,Q873536
+6,5031561,"Ōsaki, Miyagi",Q385892
+7,1435479,"Kuriyama, Hokkaido",Q1357008
+8,451361,"Kadena, Okinawa",Q1205469
+9,1435475,"Yuni, Hokkaido",Q1355570
+10,6940869,Isezakichō,Q6079788
+11,863136,Kyonan,Q1203580
+12,874348,"Ami, Ibaraki",Q1203814
+13,328635,"Myōkō, Niigata",Q279642
+14,1279226,Tama and Friends,Q2635100
+15,12429432,Pippu Station,Q872859
+16,601512,"Mihama, Aichi",Q1203828
+17,1350694,Nagai Station (Osaka),Q1044114
+18,44468315,Heung Kong Tower,Q2717933
+19,329263,"Takasago, Hyōgo",Q869037
+20,862662,"Kiyokawa, Kanagawa",Q1344386
+21,7038685,"Tōyako, Hokkaido",Q1022930
+22,929307,"Emukae, Nagasaki",Q857797
+23,13038816,Kushiro Station (Hokkaido),Q1073704
+24,1438897,"Mukawa, Hokkaido",Q1187152
+25,328945,"Tajimi, Gifu",Q819689
+26,468106,"Minamioguni, Kumamoto",Q1184473
+27,863102,Shirako,Q1203293
+0,18508920,Fukuno Station (Gifu),Q5507673
+1,329607,"Matsuura, Nagasaki",Q850465
+2,483448,"Yusuhara, Kōchi",Q1206286
+3,898081,"Kami, Miyagi",Q1205414
+4,459772,"Hinokage, Miyazaki",Q1206723
+5,1024982,Koishikawa,Q2666269
+6,451365,"Nakagusuku, Okinawa",Q1205406
+7,874552,"Ten'ei, Fukushima",Q1205567
+8,1435430,"Kyōwa, Hokkaido",Q1354347
+9,556014,"Hino, Tottori",Q1156127
+10,877502,"Shōwa, Fukushima",Q1205534
+11,877567,"Tamakawa, Fukushima",Q1205448
+12,6940869,Isezakichō,Q6079788
+13,1438599,"Minamifurano, Hokkaido",Q1357254
+14,624415,"Minamiaiki, Nagano",Q763885
+15,1279226,Tama and Friends,Q2635100
+16,502418,"Mugi, Tokushima",Q1352217
+17,12429432,Pippu Station,Q872859
+18,601512,"Mihama, Aichi",Q1203828
+19,1350694,Nagai Station (Osaka),Q1044114
+20,328629,"Mitsuke, Niigata",Q649650
+21,33264286,"Minamidaitō, Okinawa",Q1351200
+22,10434175,"Yoshinogari, Saga",Q1206915
+23,328381,"Ryūgasaki, Ibaraki",Q844138
+24,862831,"Motono, Chiba",Q851286
+25,12466105,Ichikawamisato,Q1204453
+26,35894656,Nangō-Nana-Chōme Station,Q8189775
+27,556081,"Minabe, Wakayama",Q1345966
+28,12412763,Asahikawa Station,Q1073617
+29,2649949,"Minamiōsumi, Kagoshima",Q1208563
+30,877403,"Hinoemata, Fukushima",Q1205602
+0,329035,"Kasugai, Aichi",Q26101
+1,12446895,Nayoro Station,Q901406
+2,878735,"Nishimurayama District, Yamagata",Q1155585
+3,12429432,Pippu Station,Q872859
+4,2126029,"Chikuzen, Fukuoka",Q1072679
+5,925280,"Nishiiwai District, Iwate",Q1131927
+6,459770,"Higashiusuki District, Miyazaki",Q1132445
+7,1024982,Koishikawa,Q2666269
+8,35907568,Nangō-Jūsan-Chōme Station,Q3563648
+9,871985,"Higashiibaraki District, Ibaraki",Q1154667
+10,929122,"Minamitsugaru District, Aomori",Q1155887
+11,1879246,"Yabu, Hyōgo",Q869014
+12,572736,"Senboku District, Osaka",Q646275
+13,18392196,Suenohara Station,Q7634398
+14,6940869,Isezakichō,Q6079788
+15,6793353,"Yatsushiro, Kumamoto",Q734479
+16,1279226,Tama and Friends,Q2635100
+17,629974,"Minamitsuru District, Yamanashi",Q1141178
+18,3824980,Bungo-ōno,Q850366
+19,1350694,Nagai Station (Osaka),Q1044114
+20,629951,"Nakakoma District, Yamanashi",Q1154785
+21,864937,"Yorii, Saitama",Q961604
+22,1432641,"Kayabe District, Hokkaido",Q1185443
+23,624568,"Kitaazumi District, Nagano",Q1155067
+24,874434,Yūki District,Q1154565
+25,35894656,Nangō-Nana-Chōme Station,Q8189775
+26,898151,"Tōda District, Miyagi",Q1131910
+27,925249,"Waga District, Iwate",Q1156037
+28,1235544,Yoshida,Q436035
+0,329252,"Tatsuno, Hyōgo",Q877190
+1,12446895,Nayoro Station,Q901406
+2,328503,"Yōkaichiba, Chiba",Q2611155
+3,335967,Nerima,Q232655
+4,328091,"Ishikari, Hokkaido",Q693221
+5,329304,"Kurayoshi, Tottori",Q642006
+6,329442,"Nakama, Fukuoka",Q847601
+7,483443,"Nakatosa, Kōchi",Q1350193
+8,1024982,Koishikawa,Q2666269
+9,556141,"Sangō, Nara",Q1203139
+10,11236272,Yamasaki,Q2599247
+11,49066332,Junichi Fukura,Q11594426
+12,864953,"Kurihashi, Saitama",Q1002916
+13,35907765,Nangō-Jūhatchōme Station,Q3563856
+14,1438705,"Tomamae District, Hokkaido",Q1134113
+15,6940869,Isezakichō,Q6079788
+16,14368605,Matsushiro Domain,Q903575
+17,328932,"Ōmachi, Nagano",Q385375
+18,1279226,Tama and Friends,Q2635100
+19,329431,"Yanagawa, Fukuoka",Q585630
+20,12429432,Pippu Station,Q872859
+21,629971,"Fujikawaguchiko, Yamanashi",Q1004231
+22,328528,Yotsukaidō,Q429373
+23,45594,Kameyama,Q448668
+24,1350694,Nagai Station (Osaka),Q1044114
+25,1442927,"Tokachi District, Hokkaido",Q658585
+26,478993,"Mizumaki, Fukuoka",Q1350098
+27,8508324,Fukumitsu,Q5507664
+28,1438784,"Rebun District, Hokkaido",Q1134236
+29,1552795,Shingu,Q475200
+30,18328332,Higashi-Fukuma Station,Q5359754
+31,1357293,Hakui,Q5640624
+32,18393536,Koza Station,Q2681936
+33,328532,Shiroi,Q519187
+34,19341294,Shin'ichi,Q7497070
+35,12412763,Asahikawa Station,Q1073617
+36,39189905,Shiida,Q16883187
+37,496876,"Iki, Nagasaki",Q861519
+0,12429432,Pippu Station,Q872859
+1,22522393,Chikabumi Station,Q876953
+2,12446895,Nayoro Station,Q901406
+3,451095,Japanese addressing system,Q1757962
+4,1350694,Nagai Station (Osaka),Q1044114
+5,6940869,Isezakichō,Q6079788
+6,35894656,Nangō-Nana-Chōme Station,Q8189775
+7,12412763,Asahikawa Station,Q1073617
+8,1024982,Koishikawa,Q2666269
+9,1279226,Tama and Friends,Q2635100
+0,329424,"Nōgata, Fukuoka",Q861296
+1,1004381,"Rumoi, Hokkaido",Q714628
+2,329053,Gamagōri,Q694930
+3,12446895,Nayoro Station,Q901406
+4,572777,"Kasagi, Kyoto",Q1203404
+5,1024982,Koishikawa,Q2666269
+6,328189,"Goshogawara, Aomori",Q496702
+7,333990,"Tsushima, Aichi",Q816736
+8,545701,"Tsuwano, Shimane",Q640586
+9,468158,"Asagiri, Kumamoto",Q1184763
+10,6940869,Isezakichō,Q6079788
+11,877583,"Miharu, Fukushima",Q1348269
+12,12429432,Pippu Station,Q872859
+13,629973,"Narusawa, Yamanashi",Q1204384
+14,860483,"Eiheiji, Fukui",Q1303631
+15,328526,Futtsu,Q498023
+16,1350694,Nagai Station (Osaka),Q1044114
+17,329631,"Beppu, Ōita",Q273880
+18,327993,"Kaga, Ishikawa",Q120103
+19,329286,"Gojō, Nara",Q602571
+20,328986,"Numazu, Shizuoka",Q241037
+21,1438782,"Rebun, Hokkaido",Q1272571
+22,874563,"Shimogō, Fukushima",Q1205491
+23,1435406,"Niseko, Hokkaido",Q1204586
+24,1279226,Tama and Friends,Q2635100
+25,556181,"Tenkawa, Nara",Q1203501
+0,1435388,"Suttsu District, Hokkaido",Q1185449
+1,12446895,Nayoro Station,Q901406
+2,329509,"Kashima, Saga",Q684494
+3,868323,"Tano District, Gunma",Q1075472
+4,451300,"Isehara, Kanagawa",Q734520
+5,1024982,Koishikawa,Q2666269
+6,479023,"Asakura, Fukuoka",Q720625
+7,1435416,"Kimobetsu, Hokkaido",Q1355478
+8,1442940,"Nakagawa (Tokachi) District, Hokkaido",Q1134132
+9,502472,"Mima, Tokushima",Q857828
+10,6940869,Isezakichō,Q6079788
+11,4791227,"Ayagawa, Kagawa",Q1156043
+12,1279226,Tama and Friends,Q2635100
+13,12429432,Pippu Station,Q872859
+14,329162,Mukō,Q850640
+15,1435481,"Yūbari District, Hokkaido",Q1186123
+16,1350694,Nagai Station (Osaka),Q1044114
+17,1438721,"Sarufutsu, Hokkaido",Q1210543
+18,1438601,"Sorachi District, Hokkaido",Q1185455
+19,468142,"Yatsushiro District, Kumamoto",Q1043800
+20,469455,"Kishima District, Saga",Q1044239
+21,929161,"Shimokita District, Aomori",Q1205572
+22,35894656,Nangō-Nana-Chōme Station,Q8189775
+23,4246091,"Miyoshi, Tokushima",Q990371
+0,479043,"Ukiha, Fukuoka",Q850373
+1,12429432,Pippu Station,Q872859
+2,328461,"Warabi, Saitama",Q673010
+3,329080,"Takahama, Aichi",Q816734
+4,12446895,Nayoro Station,Q901406
+5,1350694,Nagai Station (Osaka),Q1044114
+6,13038816,Kushiro Station (Hokkaido),Q1073704
+7,329680,"Urasoe, Okinawa",Q695895
+8,525586,"Shōō, Okayama",Q1156223
+9,6940869,Isezakichō,Q6079788
+10,35894656,Nangō-Nana-Chōme Station,Q8189775
+11,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,14504859,Nishi Tokyo Bus,Q7040497
+2,1350694,Nagai Station (Osaka),Q1044114
+3,574299,"Kohoku, Shiga",Q1042595
+4,6940869,Isezakichō,Q6079788
+5,35894656,Nangō-Nana-Chōme Station,Q8189775
+6,12412763,Asahikawa Station,Q1073617
+7,1024982,Koishikawa,Q2666269
+8,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,7650335,"Kikai, Kagoshima",Q1206640
+2,12446895,Nayoro Station,Q901406
+3,1350694,Nagai Station (Osaka),Q1044114
+4,525573,"Kagamino, Okayama",Q1155346
+5,6940869,Isezakichō,Q6079788
+6,1024982,Koishikawa,Q2666269
+7,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,1435408,"Makkari, Hokkaido",Q1354496
+2,451346,"Ginoza, Okinawa",Q1203012
+3,601463,"Toyoyama, Aichi",Q1345562
+4,1350694,Nagai Station (Osaka),Q1044114
+5,6940869,Isezakichō,Q6079788
+6,12446895,Nayoro Station,Q901406
+7,12412763,Asahikawa Station,Q1073617
+8,1024982,Koishikawa,Q2666269
+9,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,35894656,Nangō-Nana-Chōme Station,Q8189775
+5,12412763,Asahikawa Station,Q1073617
+6,1024982,Koishikawa,Q2666269
+7,601459,"Tōgō, Aichi",Q265050
+8,1279226,Tama and Friends,Q2635100
+9,556164,"Takatori, Nara",Q1202681
+0,624450,"Tatsuno, Nagano",Q1347504
+1,12429432,Pippu Station,Q872859
+2,12446895,Nayoro Station,Q901406
+3,1350694,Nagai Station (Osaka),Q1044114
+4,16739728,"Ogawamachi, Tokyo",Q3270459
+5,6940869,Isezakichō,Q6079788
+6,35894656,Nangō-Nana-Chōme Station,Q8189775
+7,12412763,Asahikawa Station,Q1073617
+8,877411,"Tadami, Fukushima",Q1205514
+9,1024982,Koishikawa,Q2666269
+10,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,1656616,"Kitahiroshima, Hiroshima",Q1204518
+4,3540239,Minamisatsuma,Q15754
+5,6940869,Isezakichō,Q6079788
+6,12412763,Asahikawa Station,Q1073617
+7,1024982,Koishikawa,Q2666269
+8,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,1279226,Tama and Friends,Q2635100
+4,6940869,Isezakichō,Q6079788
+5,35894656,Nangō-Nana-Chōme Station,Q8189775
+6,12412763,Asahikawa Station,Q1073617
+7,1024982,Koishikawa,Q2666269
+8,1650238,Chishima Province,Q1063820
+0,12429432,Pippu Station,Q872859
+1,12780102,"Motomiya, Fukushima",Q867106
+2,12446895,Nayoro Station,Q901406
+3,1350694,Nagai Station (Osaka),Q1044114
+4,6940869,Isezakichō,Q6079788
+5,35894656,Nangō-Nana-Chōme Station,Q8189775
+6,1024982,Koishikawa,Q2666269
+7,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,35894656,Nangō-Nana-Chōme Station,Q8189775
+5,1024982,Koishikawa,Q2666269
+6,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,35894656,Nangō-Nana-Chōme Station,Q8189775
+5,1024982,Koishikawa,Q2666269
+6,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,35894656,Nangō-Nana-Chōme Station,Q8189775
+5,1024982,Koishikawa,Q2666269
+6,1279226,Tama and Friends,Q2635100
+0,468126,"Kashima, Kumamoto",Q1184801
+1,12429432,Pippu Station,Q872859
+2,468156,"Kuma, Kumamoto",Q1184708
+3,12446895,Nayoro Station,Q901406
+4,1350694,Nagai Station (Osaka),Q1044114
+5,1435477,"Naganuma, Hokkaido",Q1355522
+6,6940869,Isezakichō,Q6079788
+7,35894656,Nangō-Nana-Chōme Station,Q8189775
+8,1024982,Koishikawa,Q2666269
+9,1279226,Tama and Friends,Q2635100
+0,601742,"Mitake, Gifu",Q640925
+1,1350694,Nagai Station (Osaka),Q1044114
+2,468028,"Nagasu, Kumamoto",Q1156411
+3,574298,"Torahime, Shiga",Q1042601
+4,329408,"Susaki, Kōchi",Q751154
+5,12429432,Pippu Station,Q872859
+6,483339,"Geisei, Kōchi",Q1206376
+7,12537940,"Katō, Hyōgo",Q877164
+8,479004,"Kotake, Fukuoka",Q1206635
+9,574306,"Yogo, Shiga",Q588988
+10,329271,"Kasai, Hyōgo",Q851155
+11,451415,"Iheya, Okinawa",Q1193315
+12,451414,"Kitadaitō, Okinawa",Q1207554
+13,10274944,Higashimiyoshi,Q1206006
+14,6509203,"Kyōtamba, Kyoto",Q1203236
+15,479101,"Yoshitomi, Fukuoka",Q1205793
+16,10275793,"Kaiyō, Tokushima",Q1205954
+17,878702,"Yamanobe, Yamagata",Q1347748
+18,459137,"Ōsaki, Kagoshima",Q931439
+19,601730,"Sakahogi, Gifu",Q598446
+20,601591,"Yoshida, Shizuoka",Q1202789
+21,1279226,Tama and Friends,Q2635100
+22,929160,"Wakinosawa, Aomori",Q7961189
+23,601517,"Hazu, Aichi",Q1154657
+24,601516,"Kira, Aichi",Q1154383
+25,35919885,Nishi-Nijūhatchōme Station,Q3563683
+26,601539,"Toyone, Aichi",Q153618
+27,459744,"Takanabe, Miyazaki",Q1206737
+28,479058,"Kurogi, Fukuoka",Q995516
+29,601732,"Kawabe, Gifu",Q1203748
+30,572749,"Chihayaakasaka, Osaka",Q1072574
+31,572764,"Ide, Kyoto",Q1203097
+32,328315,"Shinjō, Yamagata",Q840603
+33,329410,"Sukumo, Kōchi",Q655258
+34,8074965,"Yosano, Kyoto",Q1203259
+35,898077,"Ōhira, Miyagi",Q1204681
+36,864879,"Kawajima, Saitama",Q1203970
+37,1432627,"Kikonai, Hokkaido",Q1354308
+38,158218,"Gobō, Wakayama",Q847572
+39,1435504,"Horokanai, Hokkaido",Q1355616
+40,14504859,Nishi Tokyo Bus,Q7040497
+41,1435401,"Isoya District, Hokkaido",Q1185879
+42,18188365,Chūō-Ichibamae Station,Q5119034
+43,894571,"Hachirōgata, Akita",Q1205526
+44,868714,"Itakura, Gunma",Q1203771
+45,35894656,Nangō-Nana-Chōme Station,Q8189775
+46,601600,Kikugawa,Q726565
+47,459720,"Takaharu, Miyazaki",Q1206617
+0,12429432,Pippu Station,Q872859
+1,1350694,Nagai Station (Osaka),Q1044114
+2,6940869,Isezakichō,Q6079788
+3,12412763,Asahikawa Station,Q1073617
+4,1024982,Koishikawa,Q2666269
+5,1279226,Tama and Friends,Q2635100
+0,494446,"Miki, Kagawa",Q1205980
+1,1350694,Nagai Station (Osaka),Q1044114
+2,35919885,Nishi-Nijūhatchōme Station,Q3563683
+3,35894656,Nangō-Nana-Chōme Station,Q8189775
+4,20662866,Sōen Station,Q589441
+5,12446895,Nayoro Station,Q901406
+6,451095,Japanese addressing system,Q1757962
+7,336005,"Kanie, Aichi",Q1203992
+8,574270,"Ryūō, Shiga",Q1087560
+9,479006,"Kurate, Fukuoka",Q629799
+10,35907765,Nangō-Jūhatchōme Station,Q3563856
+11,12429432,Pippu Station,Q872859
+12,6940869,Isezakichō,Q6079788
+13,468002,"Jōnan, Kumamoto",Q858138
+14,35842582,Nishi-Jūitchōme Station,Q3563700
+15,12412763,Asahikawa Station,Q1073617
+16,1024982,Koishikawa,Q2666269
+17,572747,"Kanan, Osaka",Q2305508
+18,14504859,Nishi Tokyo Bus,Q7040497
+19,1279226,Tama and Friends,Q2635100
+20,624528,"Mitake, Nagano",Q6880729
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,14504859,Nishi Tokyo Bus,Q7040497
+3,1350694,Nagai Station (Osaka),Q1044114
+4,6940869,Isezakichō,Q6079788
+5,1024982,Koishikawa,Q2666269
+6,1279226,Tama and Friends,Q2635100
+0,1435435,"Tomari, Hokkaido",Q268750
+1,12429432,Pippu Station,Q872859
+2,12446895,Nayoro Station,Q901406
+3,459165,"Nakatane, Kagoshima",Q1205885
+4,1350694,Nagai Station (Osaka),Q1044114
+5,329620,"Tamana, Kumamoto",Q861610
+6,1442919,"Honbetsu, Hokkaido",Q1210518
+7,6940869,Isezakichō,Q6079788
+8,35894656,Nangō-Nana-Chōme Station,Q8189775
+9,459738,"Tsuno, Miyazaki",Q1205974
+10,1024982,Koishikawa,Q2666269
+11,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,1438841,"Yūbetsu, Hokkaido",Q1348807
+2,12446895,Nayoro Station,Q901406
+3,1350694,Nagai Station (Osaka),Q1044114
+4,6940869,Isezakichō,Q6079788
+5,35894656,Nangō-Nana-Chōme Station,Q8189775
+6,12412763,Asahikawa Station,Q1073617
+7,1279226,Tama and Friends,Q2635100
+0,601548,"Kozakai, Aichi",Q1042609
+1,12429432,Pippu Station,Q872859
+2,479080,"Itoda, Fukuoka",Q1208544
+3,12446895,Nayoro Station,Q901406
+4,451095,Japanese addressing system,Q1757962
+5,1350694,Nagai Station (Osaka),Q1044114
+6,3355709,"Shimogyō-ku, Kyoto",Q1077022
+7,874507,"Koori, Fukushima",Q1205184
+8,6940869,Isezakichō,Q6079788
+9,35894656,Nangō-Nana-Chōme Station,Q8189775
+10,929166,"Takko, Aomori",Q1349168
+11,12412763,Asahikawa Station,Q1073617
+12,864948,"Shiraoka, Saitama",Q1345322
+13,1502610,"Minamiechizen, Fukui",Q1347526
+14,1024982,Koishikawa,Q2666269
+15,1279226,Tama and Friends,Q2635100
+16,478969,"Hisayama, Fukuoka",Q1206089
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,1024982,Koishikawa,Q2666269
+5,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,1279226,Tama and Friends,Q2635100
+4,6940869,Isezakichō,Q6079788
+5,35894656,Nangō-Nana-Chōme Station,Q8189775
+6,1024982,Koishikawa,Q2666269
+7,14613483,Minamikyūshū,Q19701
+0,601520,"Kōta, Aichi",Q1345954
+1,12429432,Pippu Station,Q872859
+2,629976,"Kosuge, Yamanashi",Q29463
+3,5361260,"Namegata, Ibaraki",Q877184
+4,20805176,Aizumisato,Q1205357
+5,556136,"Yamazoe, Nara",Q1203208
+6,12446895,Nayoro Station,Q901406
+7,1350694,Nagai Station (Osaka),Q1044114
+8,1279226,Tama and Friends,Q2635100
+9,329377,"Higashikagawa, Kagawa",Q861255
+10,572758,"Ōyamazaki, Kyoto",Q450287
+11,6940869,Isezakichō,Q6079788
+12,35894656,Nangō-Nana-Chōme Station,Q8189775
+13,4682114,Yokoshibahikari,Q1203260
+14,556177,"Ōyodo, Nara",Q629510
+15,877666,"Sōma District, Fukushima",Q1155850
+16,1024982,Koishikawa,Q2666269
+17,572781,"Minamiyamashiro, Kyoto",Q1203714
+18,2090511,"Hōdatsushimizu, Ishikawa",Q1204817
+0,468153,"Itsuki, Kumamoto",Q1184716
+1,329233,"Katano, Osaka",Q819646
+2,12429432,Pippu Station,Q872859
+3,868401,"Tamamura, Gunma",Q1203600
+4,525591,"Katsuta District, Okayama",Q634914
+5,494428,"Kitauwa District, Ehime",Q1205907
+6,1350694,Nagai Station (Osaka),Q1044114
+7,555975,"Yazu District, Tottori",Q1043163
+8,624592,"Nakajō, Nagano",Q854747
+9,17612537,Udono Station,Q5357501
+10,525609,"Kume District, Okayama",Q1131568
+11,877577,"Ishikawa District, Fukushima",Q1155869
+12,6940869,Isezakichō,Q6079788
+13,35894656,Nangō-Nana-Chōme Station,Q8189775
+14,12446895,Nayoro Station,Q901406
+15,29272841,Aburatsu Station,Q4670658
+16,1024982,Koishikawa,Q2666269
+17,556099,Nachikatsuura,Q1346730
+18,925347,"Ninohe District, Iwate",Q1131879
+19,1279226,Tama and Friends,Q2635100
+0,601522,"Nukata District, Aichi",Q787290
+1,12446895,Nayoro Station,Q901406
+2,479049,"Mii District, Fukuoka",Q1156095
+3,328475,"Kamifukuoka, Saitama",Q1349094
+4,329444,"Ogōri, Fukuoka",Q683248
+5,522665,"Ukyō-ku, Kyoto",Q580186
+6,1024982,Koishikawa,Q2666269
+7,35907568,Nangō-Jūsan-Chōme Station,Q3563648
+8,884619,"Higashitagawa District, Yamagata",Q1155781
+9,18392196,Suenohara Station,Q7634398
+10,459099,"Izumi District, Kagoshima",Q1043795
+11,6793211,Shimonoseki,Q203308
+12,864953,"Kurihashi, Saitama",Q1002916
+13,3383226,Erika Toda,Q1154775
+14,204546,"Shimoda, Shizuoka",Q653402
+15,6940869,Isezakichō,Q6079788
+16,10812593,"Asao-ku, Kawasaki",Q1041779
+17,1279226,Tama and Friends,Q2635100
+18,12429432,Pippu Station,Q872859
+19,862241,"Matsunoyama, Niigata",Q6788176
+20,572743,"Sennan District, Osaka",Q1205635
+21,3356751,"Nishikyō-ku, Kyoto",Q1154588
+22,451095,Japanese addressing system,Q1757962
+23,328928,"Komagane, Nagano",Q838684
+24,35894656,Nangō-Nana-Chōme Station,Q8189775
+25,601703,"Ibigawa, Gifu",Q1204046
+26,329583,"Shimabara, Nagasaki",Q847594
+0,503589,"Etajima, Hiroshima",Q865506
+1,1797517,"Takatsu-ku, Kawasaki",Q1076736
+2,629965,Dōshi,Q1204426
+3,12446895,Nayoro Station,Q901406
+4,451301,"Ebina, Kanagawa",Q734390
+5,1442921,"Ashoro, Hokkaido",Q1186253
+6,451309,"Ayase, Kanagawa",Q792819
+7,1024982,Koishikawa,Q2666269
+8,601576,"Oyama, Shizuoka",Q726418
+9,894649,"Ogachi District, Akita",Q1156527
+10,868366,"Kuni, Gunma",Q1041990
+11,1279226,Tama and Friends,Q2635100
+12,6940869,Isezakichō,Q6079788
+13,328407,Utsunomiya,Q200589
+14,1438665,"Bifuka, Hokkaido",Q1210495
+15,864892,"Yokoze, Saitama",Q1345277
+16,328951,"Mizunami, Gifu",Q853821
+17,38368575,"Nishi District, Hokkaido",Q1185873
+18,878786,Shirataka,Q1354787
+19,12429432,Pippu Station,Q872859
+20,864887,"Yoshimi, Saitama",Q543313
+21,762972,"Yuzawa, Niigata",Q1204269
+22,868319,"Ueno, Gunma",Q1346914
+23,329355,"Nagato, Yamaguchi",Q390812
+24,624442,"Fujimi, Nagano",Q1204145
+25,503502,"Waki, Yamaguchi",Q1354919
+26,329082,"Toyoake, Aichi",Q817280
+27,328393,"Ushiku, Ibaraki",Q844133
+28,862641,"Matsuda, Kanagawa",Q1202796
+29,601567,Kannami,Q1203533
+30,503576,"Fuchū, Hiroshima (town)",Q1204737
+31,601562,Nishiizu,Q1203949
+32,12412763,Asahikawa Station,Q1073617
+33,872035,"Tōkai, Ibaraki",Q1023784
+34,873119,"Daigo, Ibaraki",Q1346817
+0,878737,Ōishida,Q1347263
+1,3584774,"Wakasa, Fukui",Q1349039
+2,12446895,Nayoro Station,Q901406
+3,335966,Itabashi,Q232635
+4,768742,Shikokuchūō,Q838666
+5,12429432,Pippu Station,Q872859
+6,7885522,"Suminoe-ku, Osaka",Q985711
+7,572722,"Mishima District, Osaka",Q783553
+8,860526,"Nanjō District, Fukui",Q776029
+9,1024982,Koishikawa,Q2666269
+10,18392196,Suenohara Station,Q7634398
+11,868727,"Chiyoda, Gunma",Q1023773
+12,479088,"Tagawa District, Fukuoka",Q1156353
+13,519092,Kochira Katsushika-ku Kameari Kōen-mae Hashutsujo,Q777791
+14,601570,"Tagata District, Shizuoka",Q1154841
+15,6940869,Isezakichō,Q6079788
+16,877467,"Kawanuma District, Fukushima",Q1155856
+17,459138,"Soo District, Kagoshima",Q1043870
+18,601459,"Tōgō, Aichi",Q265050
+19,1279226,Tama and Friends,Q2635100
+20,878741,"Kitamurayama District, Yamagata",Q430498
+21,468014,"Shimomashiki District, Kumamoto",Q1043851
+22,1350694,Nagai Station (Osaka),Q1044114
+23,601477,"Niwa District, Aichi",Q1347719
+24,1438801,"Abashiri District, Hokkaido",Q1186622
+25,556104,"Kozagawa, Wakayama",Q1346858
+26,1435331,"Okushiri, Hokkaido",Q1022916
+27,494398,"Kita District, Ehime",Q1206404
+28,451095,Japanese addressing system,Q1757962
+29,494390,"Iyo District, Ehime",Q1206427
+30,2839932,"Fukushima-ku, Osaka",Q985728
+31,601564,"Kamo District, Shizuoka",Q961511
+32,478974,"Kasuya District, Fukuoka",Q1206294
+33,502403,"Naka District, Tokushima",Q1156492
+34,12412763,Asahikawa Station,Q1073617
+35,871936,"Kaminokawa, Tochigi",Q1345604
+36,568347,"Taka District, Hyōgo",Q1042243
+0,12446895,Nayoro Station,Q901406
+1,328091,"Ishikari, Hokkaido",Q693221
+2,39754394,Sakaechō Station (Tokyo),Q11535731
+3,556171,"Kōryō, Nara",Q1346830
+4,1024982,Koishikawa,Q2666269
+5,329405,"Nankoku, Kōchi",Q861621
+6,6792996,"Iwaki, Fukushima",Q274384
+7,6793258,Iwakuni,Q329797
+8,862655,"Ashigarashimo District, Kanagawa",Q1193172
+9,1438704,"Shosanbetsu, Hokkaido",Q1355358
+10,601577,"Suntō District, Shizuoka",Q1142259
+11,6940869,Isezakichō,Q6079788
+12,601578,"Shibakawa, Shizuoka",Q852844
+13,1279226,Tama and Friends,Q2635100
+14,6140128,Yamagata Station,Q1135793
+15,12429432,Pippu Station,Q872859
+16,329068,"Chita, Aichi",Q495826
+17,860552,"Takahama, Fukui",Q1349071
+18,555958,"Iwami, Tottori",Q281925
+19,1350694,Nagai Station (Osaka),Q1044114
+20,1438827,"Engaru, Hokkaido",Q1348788
+21,1871827,"Kuji District, Ibaraki",Q1075212
+22,1358674,"Nanao, Ishikawa",Q695892
+23,451337,"Motobu, Okinawa",Q1205928
+24,7914534,Ōtaki-Onsen Station,Q8081751
+25,863090,"Shibayama, Chiba",Q1203689
+26,12412763,Asahikawa Station,Q1073617
+27,328519,Nagareyama,Q328625
+28,328433,"Annaka, Gunma",Q564234
+0,1438934,"Saru District, Hokkaido",Q1185982
+1,329218,"Daitō, Osaka",Q386668
+2,17319434,Yawatashi Station,Q1977185
+3,479065,"Yame District, Fukuoka",Q1156374
+4,329387,"Ōzu, Ehime",Q386655
+5,329605,"Hirado, Nagasaki",Q328601
+6,629968,"Yamanakako, Yamanashi",Q1204394
+7,329348,"Hagi, Yamaguchi",Q378225
+8,329307,"Hamada, Shimane",Q432055
+9,556179,"Kurotaki, Nara",Q1203154
+10,329012,"Gotemba, Shizuoka",Q735175
+11,468099,"Kikuchi District, Kumamoto",Q1043819
+12,328165,"Muroran, Hokkaido",Q496667
+13,479082,"Kawasaki, Fukuoka",Q1206042
+14,459194,"Ōshima District, Kagoshima",Q1132452
+15,624575,"Obuse, Nagano",Q1348977
+16,868365,"Kusatsu, Gunma",Q1358949
+17,451400,"Zamami, Okinawa",Q145373
+18,862651,Hakone,Q671040
+19,874430,"Yachiyo, Ibaraki",Q1203394
+20,925236,"Shiwa, Iwate",Q387336
+21,925279,"Hiraizumi, Iwate",Q1203004
+22,556193,"Higashiyoshino, Nara",Q1203148
+23,1438596,"Kamifurano, Hokkaido",Q1357226
+24,15113522,Songyuan,Q92364
+25,329163,"Nagaokakyō, Kyoto",Q861246
+26,451398,"Haebaru, Okinawa",Q1206308
+27,349083,Kōzuke Province,Q1054838
+28,469461,"Fujitsu District, Saga",Q1132466
+29,1735276,"Betsukai, Hokkaido",Q657530
+30,864937,"Yorii, Saitama",Q961604
+31,328665,"Hakui, Ishikawa",Q822585
+32,556160,"Mitsue, Nara",Q930076
+33,494443,"Tonoshō, Kagawa",Q1349486
+34,329280,"Yamatotakada, Nara",Q838669
+35,11804734,Sagami-Ōno Station,Q1054659
+36,329695,"Akishima, Tokyo",Q212494
+37,329243,"Akashi, Hyōgo",Q26406
+38,329693,"Fuchū, Hiroshima",Q686775
+39,572745,"Taishi, Osaka",Q1347173
+40,545716,"Oki District, Shimane",Q735735
+41,329083,"Nisshin, Aichi",Q696777
+42,483439,"Agawa District, Kōchi",Q1132141
+43,863154,"Awa District, Chiba",Q1153597
+44,862835,Inba District,Q677245
+45,624566,"Hakuba, Nagano",Q1011157
+46,468080,"Ōzu, Kumamoto",Q1156406
+47,1646465,"Akkeshi District, Hokkaido",Q1134084
+48,556189,"Kamikitayama, Nara",Q1203167
+49,1442922,"Rikubetsu, Hokkaido",Q1185968
+0,624486,"Takamori, Nagano",Q1203136
+1,328369,"Ishioka, Ibaraki",Q819658
+2,328360,"Kitakata, Fukushima",Q496506
+3,328651,"Kurobe, Toyama",Q753864
+4,451307,"Minamiashigara, Kanagawa",Q651742
+5,870817,"Takanezawa, Tochigi",Q648859
+6,329329,"Mihara, Hiroshima",Q820760
+7,328169,"Noboribetsu, Hokkaido",Q428989
+8,329110,"Moriyama, Shiga",Q857225
+9,329370,"Sakaide, Kagawa",Q855059
+10,329017,"Susono, Shizuoka",Q847577
+11,328323,"Obanazawa, Yamagata",Q846342
+12,1716027,"Shibecha, Hokkaido",Q1208741
+13,329681,Nago,Q117604
+14,329321,"Takahashi, Okayama",Q851675
+15,328386,"Hitachiōta, Ibaraki",Q838663
+16,21376500,Ōdashi Station,Q5356122
+17,335981,"Nakano, Nagano",Q838652
+18,6793012,"Hitachi, Ibaraki",Q633922
+19,328429,"Shibukawa, Gunma",Q851492
+20,1438669,"Nakagawa, Hokkaido",Q1210568
+21,1435393,"Rankoshi, Hokkaido",Q1355416
+22,494484,"Tadotsu, Kagawa",Q1357346
+23,594348,"Komono, Mie",Q1204099
+24,328937,"Saku, Nagano",Q495821
+25,863114,"Ōtaki, Chiba",Q1346191
+26,601511,"Minamichita, Aichi",Q1203589
+27,328680,"Ōtsuki, Yamanashi",Q386508
+28,1735326,"Nakashibetsu, Hokkaido",Q514324
+29,1442127,"Otofuke, Hokkaido",Q1210613
+30,328257,Iwanuma,Q518203
+31,329633,"Nakatsu, Ōita",Q861221
+32,1435443,"Shakotan, Hokkaido",Q1354431
+33,459858,"Kusu, Ōita",Q1184816
+34,147730,"Matsumoto, Nagano",Q213324
+35,1438806,"Koshimizu, Hokkaido",Q1357492
+36,328492,"Tateyama, Chiba",Q646755
+37,329245,"Sumoto, Hyōgo",Q369628
+38,298098,"Naruto, Tokushima",Q460812
+39,6793133,Odawara,Q267258
+40,545713,"Nishinoshima, Shimane",Q543193
+41,329304,"Kurayoshi, Tottori",Q642006
+42,328298,Ōdate,Q329996
+43,496362,"Sakura, Chiba",Q498011
+44,4934664,Shikino Chūgakkō-mae Station,Q7496594
+45,601561,"Matsuzaki, Shizuoka",Q1204017
+46,624508,"Ōshika, Nagano",Q1203751
+47,328926,"Komoro, Nagano",Q838657
+48,328925,"Suzaka, Nagano",Q850461
+0,328108,"Yūbari, Hokkaido",Q637145
+1,329252,"Tatsuno, Hyōgo",Q877190
+2,894537,"Kazuno District, Akita",Q1206203
+3,328648,"Uozu, Toyama",Q819613
+4,328533,Tomisato,Q692857
+5,494482,"Mannō, Kagawa",Q1350204
+6,451419,"Kumejima, Okinawa",Q1206086
+7,328675,"Yamanashi, Yamanashi",Q840610
+8,328654,"Tonami, Toyama",Q526760
+9,1438952,"Urakawa, Hokkaido",Q1355506
+10,328631,"Tsubame, Niigata",Q571051
+11,870833,"Nasu, Tochigi",Q636416
+12,451364,"Kitanakagusuku, Okinawa",Q1351145
+13,624576,"Takayama, Nagano",Q1349115
+14,868384,"Minakami, Gunma",Q1345518
+15,868364,"Tsumagoi, Gunma",Q1203321
+16,594343,"Kisosaki, Mie",Q1203943
+17,556191,"Kawakami, Nara",Q1204424
+18,6940869,Isezakichō,Q6079788
+19,898061,"Yamamoto, Miyagi",Q1205163
+20,2014928,Shinanomachi Station,Q335677
+21,6793219,"Ube, Yamaguchi",Q468765
+22,860632,"Shika, Ishikawa",Q1349406
+23,877507,"Nishigō, Fukushima",Q766027
+24,601510,"Higashiura, Aichi",Q677745
+25,329372,"Zentsūji, Kagawa",Q191300
+26,329434,"Yame, Fukuoka",Q850492
+27,328417,"Yaita, Tochigi",Q695926
+28,469406,"Kiyama, Saga",Q1206602
+29,601476,"Fusō, Aichi",Q1203107
+30,536618,"Fujiidera, Osaka",Q634011
+31,502385,"Kamiyama, Tokushima",Q1350922
+32,1507931,"Okutama, Tokyo",Q598626
+33,329065,"Tōkai, Aichi",Q622620
+34,328190,"Towada, Aomori",Q646818
+35,864871,"Namegawa, Saitama",Q1346985
+36,328938,"Chikuma, Nagano",Q179757
+37,1438789,"Rishirifuji, Hokkaido",Q1355406
+38,556142,"Ikaruga, Nara",Q379233
+39,574875,"Nishiazai, Shiga",Q1042580
+40,329356,Yanai,Q819678
+41,328310,"Yamagata, Yamagata",Q205526
+42,328626,"Tōkamachi, Niigata",Q858369
+43,624567,"Otari, Nagano",Q1204497
+44,328297,"Yokote, Akita",Q496479
+45,473387,"Ogasawara, Tokyo",Q1022925
+46,863071,Kujūkuri,Q1202775
+47,265510,"Yokosuka, Kanagawa",Q200578
+48,624402,"Minamimaki, Nagano",Q1203240
+49,624531,"Ōkuwa, Nagano",Q1204461
+0,504344,"Hida, Gifu",Q847319
+1,12446895,Nayoro Station,Q901406
+2,3697180,Azumino,Q534667
+3,6175279,"Unzen, Nagasaki",Q999453
+4,5754191,"Nantan, Kyoto",Q170421
+5,3216775,Hachimantai,Q765884
+6,7963911,"Oirase, Aomori",Q1349124
+7,4199154,"Kinokawa, Wakayama",Q697002
+8,11368986,Suō-Ōshima,Q1205034
+9,4134967,"Ōshū, Iwate",Q386052
+10,51053854,Mount Daibosatsu,
+11,469440,"Arita, Saga",Q668427
+12,1656599,"Akiōta, Hiroshima",Q1204574
+13,6940869,Isezakichō,Q6079788
+14,6703919,"Yamato, Kumamoto",Q1184757
+15,35842582,Nishi-Jūitchōme Station,Q3563700
+16,5901193,"Minamiaso, Kumamoto",Q1184681
+17,1279226,Tama and Friends,Q2635100
+18,3825041,Yufu,Q990455
+19,12429432,Pippu Station,Q872859
+20,503651,"Sera, Hiroshima",Q1349563
+21,5002333,"Miyakojima, Okinawa",Q714636
+22,44405513,"Shimanto, Kōchi (city)",Q166946
+23,2310214,"Nomi, Ishikawa",Q658912
+24,504253,Gujō,Q857243
+25,10276191,"Naka, Tokushima",Q1205685
+26,1126740,"Setouchi, Okayama",Q691691
+27,572740,"Tajiri, Osaka",Q1347129
+28,459856,"Kokonoe, Ōita",Q1184672
+29,601640,Kaizu,Q844056
+30,4979738,Nanjō,Q874691
+31,929228,"Saikai, Nagasaki",Q520267
+32,451095,Japanese addressing system,Q1757962
+33,574261,"Kōka, Shiga",Q847584
+34,3157164,"Maniwa, Okayama",Q861230
+35,2920388,Izunokuni,Q863758
+36,1549633,"Shima, Mie",Q338009
+37,574885,"Takashima, Shiga",Q845794
+38,5424333,"Kami, Kōchi",Q877689
+39,1879178,Minamiawaji,Q869004
+40,1212699,"Gotō, Nagasaki",Q201659
+41,29504824,白山,Q8084122
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,1024982,Koishikawa,Q2666269
+5,1279226,Tama and Friends,Q2635100
+0,1350694,Nagai Station (Osaka),Q1044114
+1,12446895,Nayoro Station,Q901406
+2,1438734,"Hamatonbetsu, Hokkaido",Q1210124
+3,329146,"Ayabe, Kyoto",Q694370
+4,328116,"Ashibetsu, Hokkaido",Q725311
+5,329617,"Arao, Kumamoto",Q626118
+6,12429432,Pippu Station,Q872859
+7,329296,"Arida, Wakayama",Q657843
+8,1715915,"Akkeshi, Hokkaido",Q419720
+9,1024982,Koishikawa,Q2666269
+10,1279226,Tama and Friends,Q2635100
+11,6940869,Isezakichō,Q6079788
+0,1438852,"Monbetsu District, Hokkaido",Q1208832
+1,11727896,"Sotogahama, Aomori",Q1347655
+2,5510626,Nihon-ōdōri Station,Q7034272
+3,629929,"Masuho, Yamanashi",Q1131493
+4,3831678,Toshie Negishi,Q3544674
+5,10615216,Emiri Katō,Q50016
+6,1650123,"Shibetsu District, Hokkaido",Q1134079
+7,925227,"Iwate, Iwate",Q1206018
+8,328650,"Oyabe, Toyama",Q734366
+9,483462,"Ōtsuki, Kōchi",Q1206036
+10,1024982,Koishikawa,Q2666269
+11,1438813,"Kunneppu, Hokkaido",Q1365442
+12,329404,"Aki, Kōchi",Q417825
+13,865343,"Kitagunma District, Gunma",Q1075450
+14,90625,Matsuo Bashō,Q5676
+15,601501,Yatomi,Q332825
+16,1438706,"Enbetsu, Hokkaido",Q1335041
+17,5424444,"Kōnan, Kōchi",Q877209
+18,6940869,Isezakichō,Q6079788
+19,893290,Ueno,Q576781
+20,568371,"Ibo District, Hyōgo",Q1042150
+21,1279226,Tama and Friends,Q2635100
+22,601637,"Kasamatsu, Gifu",Q1203551
+23,860517,"Imadate District, Fukui",Q1204530
+24,12429432,Pippu Station,Q872859
+25,483340,"Aki District, Kōchi",Q1132266
+26,328371,"Yūki, Ibaraki",Q847569
+27,1350694,Nagai Station (Osaka),Q1044114
+28,328117,"Akabira, Hokkaido",Q413804
+29,556040,"Kaisō District, Wakayama",Q1130990
+30,870802,"Shimotsuga District, Tochigi",Q1202834
+31,13401334,Tajen University,Q7676802
+32,1435448,"Furubira, Hokkaido",Q524318
+33,1438962,"Horoizumi District, Hokkaido",Q1186022
+34,1438961,"Erimo, Hokkaido",Q187124
+35,2873657,"Miyagino-ku, Sendai",Q1043355
+36,24689362,Fengnan District,Q1332204
+37,525412,"Oda District, Okayama",Q1131814
+38,601605,"Shūchi District, Shizuoka",Q1205501
+39,18054568,Nagato-Ōi Station,Q6958688
+40,14376149,Shinano-Ōmachi Station,Q7497271
+41,870206,"Ashio, Tochigi",Q4805118
+42,929241,"Hasami, Nagasaki",Q1351244
+0,12446895,Nayoro Station,Q901406
+1,3098659,"Saiwai-ku, Kawasaki",Q1153579
+2,1024982,Koishikawa,Q2666269
+3,1444317,"Nakamura-ku, Nagoya",Q780521
+4,2182115,"Suruga-ku, Shizuoka",Q1042630
+5,18392196,Suenohara Station,Q7634398
+6,601538,"Tōei, Aichi",Q1354877
+7,6940869,Isezakichō,Q6079788
+8,80313,Yokohama,Q38283
+9,1752085,"Asakita-ku, Hiroshima",Q63444
+10,1804364,"Shimizu-ku, Shizuoka",Q79385
+11,601494,"Miwa, Aichi",Q897668
+12,1279226,Tama and Friends,Q2635100
+13,2192679,"Naka-ku, Yokohama",Q1141068
+14,1537300,"Atsuta-ku, Nagoya",Q1355625
+15,12429432,Pippu Station,Q872859
+16,13196793,Kitanagoya,Q597594
+17,2839224,"Asahi-ku, Osaka",Q861271
+18,1350694,Nagai Station (Osaka),Q1044114
+19,7885697,"Nishiyodogawa-ku, Osaka",Q985765
+20,1782064,"Shiroishi-ku, Sapporo",Q647388
+21,24750011,Yuquan District,Q1345005
+22,312535,Wards of Japan,Q137773
+23,312539,Chūō-ku,Q399089
+24,14504859,Nishi Tokyo Bus,Q7040497
+25,624545,"Ikusaka, Nagano",Q1347517
+26,400070,"Tennōji-ku, Osaka",Q490592
+27,5103071,"Seya-ku, Yokohama",Q1153930
+28,328410,"Nikkō, Tochigi",Q235753
+29,868733,"Ōra, Gunma",Q656774
+30,35894656,Nangō-Nana-Chōme Station,Q8189775
+31,868717,"Meiwa, Gunma",Q1203274
+32,12412763,Asahikawa Station,Q1073617
+33,874546,"Kagamiishi, Fukushima",Q1205431
+0,1438850,"Ōmu, Hokkaido",Q1206664
+1,12429432,Pippu Station,Q872859
+2,12446895,Nayoro Station,Q901406
+3,1350694,Nagai Station (Osaka),Q1044114
+4,6940869,Isezakichō,Q6079788
+5,6793341,"Ōmura, Nagasaki",Q385591
+6,1024982,Koishikawa,Q2666269
+7,1279226,Tama and Friends,Q2635100
+0,877448,"Inawashiro, Fukushima",Q669633
+1,329052,"Nishio, Aichi",Q317844
+2,12446895,Nayoro Station,Q901406
+3,868346,Nakanojō,Q967920
+4,12429432,Pippu Station,Q872859
+5,328322,"Higashine, Yamagata",Q823927
+6,1024982,Koishikawa,Q2666269
+7,328188,"Kuroishi, Aomori",Q496412
+8,329013,"Fukuroi, Shizuoka",Q821337
+9,328134,"Furano, Hokkaido",Q654738
+10,329095,"Kameyama, Mie",Q646858
+11,1442569,"Kamishihoro, Hokkaido",Q1210152
+12,6940869,Isezakichō,Q6079788
+13,13781118,Amagi Railway Amagi Line,Q642407
+14,328935,"Chino, Nagano",Q838660
+15,1279226,Tama and Friends,Q2635100
+16,862632,"Ōiso, Kanagawa",Q385023
+17,23981086,Mingguang,Q1334907
+18,329436,"Chikugo, Fukuoka",Q601137
+19,1350694,Nagai Station (Osaka),Q1044114
+20,329063,"Inazawa, Aichi",Q389562
+21,459813,"Hiji, Ōita",Q1184795
+22,328662,"Komatsu, Ishikawa",Q646898
+23,328482,"Yoshikawa, Saitama",Q873546
+24,6793202,"Fukuyama, Hiroshima",Q661038
+25,328398,"Moriya, Ibaraki",Q840608
+26,328517,"Katsuura, Chiba",Q696418
+27,1438580,"Aibetsu, Hokkaido",Q1355434
+28,426137,"China, Kagoshima",Q932423
+0,483359,"Nagaoka District, Kōchi",Q1132123
+1,328264,"Noshiro, Akita",Q819587
+2,12446895,Nayoro Station,Q901406
+3,329431,"Yanagawa, Fukuoka",Q585630
+4,1438957,"Samani, Hokkaido",Q1208030
+5,12412519,"Kaga District, Okayama",Q1131574
+6,898246,"Motoyoshi, Miyagi",Q856384
+7,15417046,Miwa,Q23538316
+8,494445,"Shōzu District, Kagawa",Q643336
+9,525382,"Wake District, Okayama",Q1155355
+10,494480,"Ayauta District, Kagawa",Q1123066
+11,6940869,Isezakichō,Q6079788
+12,1438700,"Tomamae, Hokkaido",Q1355396
+13,1279226,Tama and Friends,Q2635100
+14,502453,"Itano District, Tokushima",Q1156025
+15,328119,"Mikasa, Hokkaido",Q842318
+16,12429432,Pippu Station,Q872859
+17,468031,"Tamana District, Kumamoto",Q1132375
+18,555997,"Tōhaku District, Tottori",Q1131949
+19,1350694,Nagai Station (Osaka),Q1044114
+20,483340,"Aki District, Kōchi",Q1132266
+21,624549,"Higashichikuma District, Nagano",Q1155105
+22,329108,"Kusatsu, Shiga",Q386677
+23,459859,"Kusu District, Ōita",Q1132440
+24,329456,"Koga, Fukuoka",Q768356
+25,860683,"Shimoniikawa District, Toyama",Q634439
+26,328314,"Sakata, Yamagata",Q504690
+27,556096,"Kushimoto, Wakayama",Q1343733
+28,339960,"Nishitama District, Tokyo",Q1048689
+29,624440,"Chiisagata District, Nagano",Q1072595
+30,624424,"Kitasaku District, Nagano",Q1142451
+31,16521049,France–Japan relations (19th century),Q1806790
+32,555998,"Nanbu, Tottori",Q1156169
+33,870221,"Motegi, Tochigi",Q644327
+34,329704,"Kokubunji, Tokyo",Q317834
+35,35894656,Nangō-Nana-Chōme Station,Q8189775
+36,328948,"Nakatsugawa, Gifu",Q844052
+37,494451,"Kita District, Kagawa",Q1155929
+38,925238,"Shiwa District, Iwate",Q1131886
+39,594358,"Mie District, Mie",Q1130983
+40,525399,"Tsukubo District, Okayama",Q1131693
+41,328655,"Namerikawa, Toyama",Q823513
+0,545648,"Yatsuka District, Shimane",Q1155799
+1,864938,"Ōsato District, Saitama",Q1075196
+2,12429432,Pippu Station,Q872859
+3,1350694,Nagai Station (Osaka),Q1044114
+4,12446895,Nayoro Station,Q901406
+5,601620,"Hamana District, Shizuoka",Q1042370
+6,545674,"Hikawa District, Shimane",Q1206215
+7,884629,"Akumi District, Yamagata",Q1155592
+8,555960,"Iwami District, Tottori",Q1131619
+9,601518,"Hazu District, Aichi",Q522936
+10,479039,"Itoshima District, Fukuoka",Q1132262
+11,469439,"Higashimatsuura District, Saga",Q1043844
+12,329317,"Tamano, Okayama",Q850335
+13,459815,"Hayami District, Ōita",Q1043858
+14,864946,"Kita-Saitama District, Saitama",Q1042159
+15,624529,"Ōtaki, Nagano",Q1204275
+16,6940869,Isezakichō,Q6079788
+17,31300240,"Ichinoseki, Iwate",Q390817
+18,1024982,Koishikawa,Q2666269
+19,1279226,Tama and Friends,Q2635100
+0,328479,"Satte, Saitama",Q868971
+1,1438618,Shimukappu,Q1356989
+2,925220,"Shizukuishi, Iwate",Q1348478
+3,329447,"Kasuga, Fukuoka",Q47084
+4,329328,"Takehara, Hiroshima",Q200500
+5,1024982,Koishikawa,Q2666269
+6,329406,"Tosa, Kōchi",Q851163
+7,13986999,"Kōzushima, Tokyo",Q1346527
+8,624573,"Sakaki, Nagano",Q1348962
+9,329324,"Bizen, Okayama",Q863741
+10,451345,"Onna, Okinawa",Q1202976
+11,1646438,"Kushiro District, Hokkaido",Q1134070
+12,624518,"Nagiso, Nagano",Q1310803
+13,6940869,Isezakichō,Q6079788
+14,1438597,"Nakafurano, Hokkaido",Q680384
+15,864958,"Sugito, Saitama",Q1345351
+16,30876894,"Tonaki, Okinawa",Q1205897
+17,1438593,"Kamikawa (Ishikari) District, Hokkaido",Q1185413
+18,1279226,Tama and Friends,Q2635100
+19,12429432,Pippu Station,Q872859
+20,601513,Taketoyo,Q1203232
+21,329225,"Takaishi, Osaka",Q857218
+22,1350694,Nagai Station (Osaka),Q1044114
+23,479077,"Kawara, Fukuoka",Q573632
+24,574288,"Taga, Shiga",Q1346747
+25,459729,"Aya, Miyazaki",Q1350822
+26,624441,"Shimosuwa, Nagano",Q1204211
+27,23486634,Hitachi-Ōta Station,Q1305575
+28,483347,"Tosayamada, Kōchi",Q7827562
+29,877577,"Ishikawa District, Fukushima",Q1155869
+30,328944,"Takayama, Gifu",Q622594
+31,329665,"Izumi, Osaka",Q696412
+32,1438586,"Biei, Hokkaido",Q1355491
+0,898238,"Motoyoshi District, Miyagi",Q1131916
+1,12429432,Pippu Station,Q872859
+2,329440,"Buzen, Fukuoka",Q633601
+3,601500,"Tobishima, Aichi",Q1203952
+4,12446895,Nayoro Station,Q901406
+5,459103,"Kajiki, Kagoshima",Q1044286
+6,1350694,Nagai Station (Osaka),Q1044114
+7,328442,"Chichibu, Saitama",Q647079
+8,898062,"Watari District, Miyagi",Q1131765
+9,459726,"Nishimorokata District, Miyazaki",Q1156846
+10,6940869,Isezakichō,Q6079788
+11,459730,"Higashimorokata District, Miyazaki",Q1132180
+12,12412763,Asahikawa Station,Q1073617
+13,459705,"Miyazaki District, Miyazaki",Q1132017
+14,1024982,Koishikawa,Q2666269
+15,329640,"Kitsuki, Ōita",Q850359
+16,1279226,Tama and Friends,Q2635100
+17,1438668,"Otoineppu, Hokkaido",Q599841
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,35894656,Nangō-Nana-Chōme Station,Q8189775
+5,12412763,Asahikawa Station,Q1073617
+6,1024982,Koishikawa,Q2666269
+7,1279226,Tama and Friends,Q2635100
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,12412763,Asahikawa Station,Q1073617
+5,572778,"Wazuka, Kyoto",Q1203583
+6,1024982,Koishikawa,Q2666269
+7,1279226,Tama and Friends,Q2635100
+0,28759577,東區,Q1241231
+1,12429432,Pippu Station,Q872859
+2,6793151,"Nagaoka, Niigata",Q540312
+3,624589,"Togakushi, Nagano",Q7813035
+4,6967827,"Misato, Kumamoto",Q674749
+5,12446895,Nayoro Station,Q901406
+6,1350694,Nagai Station (Osaka),Q1044114
+7,555998,"Nanbu, Tottori",Q1156169
+8,502422,"Kaifu District, Tokushima",Q1155923
+9,2873701,"Wakabayashi-ku, Sendai",Q1131743
+10,17614812,"Shibushi, Kagoshima",Q858378
+11,1279226,Tama and Friends,Q2635100
+12,6940869,Isezakichō,Q6079788
+13,35894656,Nangō-Nana-Chōme Station,Q8189775
+14,1438806,"Koshimizu, Hokkaido",Q1357492
+15,12412763,Asahikawa Station,Q1073617
+16,1024982,Koishikawa,Q2666269
+17,574284,"Echi District, Shiga",Q1131097
+18,863101,Chōsei,Q1202647
+19,556188,"Shimokitayama, Nara",Q1203760
+20,4985310,"Aki-ku, Hiroshima",Q63446
+0,329176,"Kyōtanabe, Kyoto",Q816728
+1,12446895,Nayoro Station,Q901406
+2,1438791,"Rishiri District, Hokkaido",Q1134097
+3,1438956,"Urakawa District, Hokkaido",Q1186133
+4,868327,"Shimonita, Gunma",Q1346871
+5,328304,"Yuzawa, Akita",Q633272
+6,459192,"Yoron, Kagoshima",Q1206643
+7,329192,Izumiōtsu,Q873553
+8,868363,"Naganohara, Gunma",Q1203366
+9,556012,"Saihaku District, Tottori",Q917024
+10,329635,"Saiki, Ōita",Q847546
+11,329673,"Nishinoomote, Kagoshima",Q847602
+12,6940869,Isezakichō,Q6079788
+13,860597,"Nomi District, Ishikawa",Q1130973
+14,877586,"Ono, Fukushima",Q1205991
+15,601495,"Jimokuji, Aichi",Q897411
+16,1279226,Tama and Friends,Q2635100
+17,12429432,Pippu Station,Q872859
+18,1646483,"Kawakami District, Hokkaido",Q1134105
+19,21790,Nagasaki,Q38234
+20,1350694,Nagai Station (Osaka),Q1044114
+21,556149,"Kawanishi, Nara",Q1203732
+22,328194,"Mutsu, Aomori",Q641992
+23,328621,"Kashiwazaki, Niigata",Q633983
+24,468127,"Mashiki, Kumamoto",Q1206076
+25,424445,Odaiba,Q211861
+26,860657,"Kashima District, Ishikawa",Q1130967
+27,894579,"Ōgata, Akita",Q427912
+28,468106,"Minamioguni, Kumamoto",Q1184473
+29,494456,"Naoshima, Kagawa",Q1350060
+0,21437016,WAKI,Q7946511
+1,328459,Sōka,Q734442
+2,329381,"Uwajima, Ehime",Q845857
+3,329216,"Matsubara, Osaka",Q774952
+4,328450,"Iwatsuki-ku, Saitama",Q1184508
+5,1552795,Shingu,Q475200
+6,29050389,Matsubase Station,Q5358556
+7,20047982,Inland Waterways Authority of India,Q4659630
+8,451300,"Isehara, Kanagawa",Q734520
+9,329402,"Muroto, Kōchi",Q431889
+10,2676176,United Tajik Opposition,Q4330417
+11,329308,"Masuda, Shimane",Q753731
+12,525621,Takahashi,Q16884188
+13,8110619,Tamana,Q16884236
+14,329192,Izumiōtsu,Q873553
+15,494443,"Tonoshō, Kagawa",Q1349486
+16,3958232,Beyond Limits Known,Q3198813
+17,1442857,"Nakasatsunai, Hokkaido",Q1210501
+18,862654,Yugawara,Q532346
+19,6793211,Shimonoseki,Q203308
+20,494484,"Tadotsu, Kagawa",Q1357346
+21,462572,Nichinan,Q1305989
+22,898067,Rifu,Q1202986
+23,479037,"Shima, Fukuoka",Q995502
+24,10595843,Mukaigawara Station,Q5366346
+25,329105,"Yōkaichi, Shiga",Q1042410
+26,329370,"Sakaide, Kagawa",Q855059
+27,329164,"Yawata, Kyoto",Q260923
+28,459744,"Takanabe, Miyazaki",Q1206737
+29,329623,"Ushibuka, Kumamoto",Q1044026
+30,329317,"Tamano, Okayama",Q850335
+31,19213802,Kamojima Station,Q11675540
+32,6792124,Tokuyama,Q2439062
+33,329339,"Ōtake, Hiroshima",Q386250
+34,328482,"Yoshikawa, Saitama",Q873546
+35,329305,"Sakaiminato, Tottori",Q496431
+36,477781,Onoda,Q7094441
+37,27558111,Ube,Q1180985
+38,328296,"Shiroishi, Miyagi",Q823489
+39,884625,Yuza,Q1347481
+40,459189,"Wadomari, Kagoshima",Q1205996
+41,329185,Sakai,Q228245
+42,1389946,Komoro,Q1215409
+43,329701,"Hino, Tokyo",Q236197
+44,7885702,"Sumiyoshi-ku, Osaka",Q985702
+45,329683,"Tomigusuku, Okinawa",Q371446
+46,328417,"Yaita, Tochigi",Q695926
+47,847494,Okaya,Q12135410
+48,863454,Kashiwazaki,Q6374368
+0,595469,"Mihama, Mie",Q1203799
+1,468041,"Ueki, Kumamoto",Q857843
+2,328126,"Fukagawa, Hokkaido",Q817268
+3,328125,"Utashinai, Hokkaido",Q842279
+4,328475,"Kamifukuoka, Saitama",Q1349094
+5,2865767,Namioka Station,Q6961895
+6,328185,"Hachinohe, Aomori",Q191914
+7,25111390,Ijūin Station,Q5296702
+8,589118,Furukawa,Q423184
+9,1438799,"Bihoro, Hokkaido",Q1355074
+10,329389,"Kawanoe, Ehime",Q1132104
+11,328165,"Muroran, Hokkaido",Q496667
+12,1637442,Fujioka,Q410451
+13,483446,"Ochi, Kōchi",Q1205739
+14,328678,"Enzan, Yamanashi",Q1345990
+15,313310,Hojo,Q398711
+16,624576,"Takayama, Nagano",Q1349115
+17,494385,"Tobe, Ehime",Q1350249
+18,1435497,"Uryū, Hokkaido",Q1357037
+19,6082445,"Tarumi-ku, Kobe",Q1078806
+20,1438875,"Toyoura, Hokkaido",Q1354284
+21,556152,"Tawaramoto, Nara",Q1203159
+22,4168516,"To-shima, Tokyo",Q1143112
+23,1438701,"Haboro, Hokkaido",Q1357163
+24,863112,Chōsei District,Q1203500
+25,328934,"Iiyama, Nagano",Q851097
+26,328132,"Nayoro, Hokkaido",Q820725
+27,1435482,"Tsukigata, Hokkaido",Q1357069
+28,451399,"Tokashiki, Okinawa",Q1351168
+29,1351037,Fukagawa,Q5507565
+30,451395,"Yonabaru, Okinawa",Q1351158
+31,870797,"Fujioka, Tochigi",Q851769
+32,1438891,"Shiraoi District, Hokkaido",Q1185996
+33,1438767,"Toyotomi, Hokkaido",Q1210534
+34,329146,"Ayabe, Kyoto",Q694370
+35,1438627,"Shimokawa, Hokkaido",Q2364809
+36,870783,"Mibu, Tochigi",Q1354910
+37,862872,"Tako, Chiba",Q1202807
+38,329334,Fuchū,Q226480
+39,329259,"Takarazuka, Hyōgo",Q823967
+40,2024785,Isawa,Q1673742
+41,1501843,Ikeda,Q409092
+42,6792801,"Tsukuba, Ibaraki",Q273863
+43,468081,"Kikuyō, Kumamoto",Q1156423
+44,929223,"Togitsu, Nagasaki",Q1205851
+45,31932436,Association of National Accountants of Nigeria,Q4809934
+46,929118,"Inakadate, Aomori",Q1362354
+47,40459942,Nishi-Takanosu Station,Q11630023
+48,877598,"Funehiki, Fukushima",Q5509092
+49,864946,"Kita-Saitama District, Saitama",Q1042159
+0,595425,"Taki, Mie",Q1203963
+1,479047,"Tachiarai, Fukuoka",Q1205864
+2,624477,"Kamiina District, Nagano",Q1155054
+3,329071,Chiryū,Q223496
+4,556170,"Ōji, Nara",Q1346392
+5,860487,"Yoshida District, Fukui",Q737826
+6,870838,"Nasu District, Tochigi",Q1203347
+7,459776,"Nishiusuki District, Miyazaki",Q1132448
+8,868381,"Kawaba, Gunma",Q1345636
+9,868387,"Tone District, Gunma",Q1077001
+10,503517,Tabuse,Q1205014
+11,468159,"Kuma District, Kumamoto",Q1132476
+12,884617,"Mikawa, Yamagata",Q1347453
+13,22315740,"Ishigaki, Okinawa",Q838366
+14,601639,"Hashima District, Gifu",Q615068
+15,6940869,Isezakichō,Q6079788
+16,595473,"Minamimuro District, Mie",Q1131464
+17,556098,"Nishimuro District, Wakayama",Q1131323
+18,1279226,Tama and Friends,Q2635100
+19,594346,"Inabe District, Mie",Q1131499
+20,12429432,Pippu Station,Q872859
+21,868730,"Ōra District, Gunma",Q1075463
+22,503593,"Kurahashi, Hiroshima",Q6445524
+23,1350694,Nagai Station (Osaka),Q1044114
+24,860627,"Kahoku District, Ishikawa",Q1130942
+25,1432645,"Yakumo, Hokkaido",Q1354242
+26,572763,"Kuse District, Kyoto",Q1076972
+27,556166,"Takaichi District, Nara",Q1117901
+28,629936,"Minamikoma District, Yamanashi",Q1131437
+29,478995,"Okagaki, Fukuoka",Q1206102
+30,865334,"Shintō, Gunma",Q1203698
+31,860636,"Hakui District, Ishikawa",Q1130953
+32,35894656,Nangō-Nana-Chōme Station,Q8189775
+33,863125,Isumi District,Q1143717
+34,863093,Sanbu District,Q1153740
+0,601747,"Kani District, Gifu",Q676000
+1,459790,"Higashikunisaki District, Ōita",Q1132357
+2,12446895,Nayoro Station,Q901406
+3,329383,"Yawatahama, Ehime",Q200603
+4,451430,"Yonaguni, Okinawa",Q702623
+5,871982,"Ōarai, Ibaraki",Q1349185
+6,328990,"Mishima, Shizuoka",Q653478
+7,328496,"Noda, Chiba",Q328619
+8,1024982,Koishikawa,Q2666269
+9,329710,"Kiyose, Tokyo",Q329754
+10,1931742,"Chikusei, Ibaraki",Q694322
+11,6940869,Isezakichō,Q6079788
+12,1279226,Tama and Friends,Q2635100
+13,12429432,Pippu Station,Q872859
+14,329103,"Nagahama, Shiga",Q844130
+15,864947,"Miyashiro, Saitama",Q155317
+16,2775973,Nasushiobara,Q498027
+17,925310,"Tanohata, Iwate",Q739087
+18,1350694,Nagai Station (Osaka),Q1044114
+19,4682076,Minamibōsō,Q873521
+20,6082234,"Higashinada-ku, Kobe",Q277434
+21,35894656,Nangō-Nana-Chōme Station,Q8189775
+22,459081,"Satsuma District, Kagoshima",Q1132367
+23,894614,"Semboku, Akita",Q846877
+24,3133953,"Sakura, Tochigi",Q696394
+0,503640,"Ōsakikamijima, Hiroshima",Q1205663
+1,12446895,Nayoro Station,Q901406
+2,502427,"Aizumi, Tokushima",Q1206365
+3,12429432,Pippu Station,Q872859
+4,925282,"Fujisawa, Iwate",Q1156197
+5,1024982,Koishikawa,Q2666269
+6,502483,"Mima District, Tokushima",Q1156496
+7,862962,Katori District,Q780284
+8,929237,"Nishisonogi District, Nagasaki",Q1156109
+9,1612037,"Okinoshima, Shimane",Q1205039
+10,6940869,Isezakichō,Q6079788
+11,12289549,"Hōki, Tottori",Q1204493
+12,11406080,"Minamiise, Mie",Q1111031
+13,1279226,Tama and Friends,Q2635100
+14,502382,"Myōdō District, Tokushima",Q1156486
+15,925313,"Fudai, Iwate",Q1349135
+16,35919885,Nishi-Nijūhatchōme Station,Q3563683
+17,1350694,Nagai Station (Osaka),Q1044114
+18,1438806,"Koshimizu, Hokkaido",Q1357492
+19,556146,"Ikoma District, Nara",Q971003
+20,468145,"Ashikita, Kumamoto",Q1184620
+21,1646460,"Kushiro, Hokkaido (town)",Q1186155
+22,5224394,"Shimanto, Kōchi (town)",Q1156035
+0,7949121,Futatsui Station,Q5510490
+1,12429432,Pippu Station,Q872859
+2,864954,"Washimiya, Saitama",Q911522
+3,24689362,Fengnan District,Q1332204
+4,12446895,Nayoro Station,Q901406
+5,594363,"Kawage, Mie",Q6379486
+6,1350694,Nagai Station (Osaka),Q1044114
+7,5103039,"Midori-ku, Yokohama",Q1203373
+8,13906729,"Teine-ku, Sapporo",Q1134339
+9,18054563,Utagō Station,Q7902300
+10,6940869,Isezakichō,Q6079788
+11,35894656,Nangō-Nana-Chōme Station,Q8189775
+12,12412763,Asahikawa Station,Q1073617
+13,355652,Nagato Province,Q907382
+14,1024982,Koishikawa,Q2666269
+15,14504859,Nishi Tokyo Bus,Q7040497
+16,1279226,Tama and Friends,Q2635100
+17,329234,"Ōsakasayama, Osaka",Q385864
+0,503646,"Mukaishima, Hiroshima",Q11415963
+1,12446895,Nayoro Station,Q901406
+2,4927352,"Higashiagatsuma, Gunma",Q1203419
+3,328166,"Tomakomai, Hokkaido",Q390413
+4,328321,"Tendō, Yamagata",Q385779
+5,502485,"Miyoshi, Tokushima (town)",Q6884503
+6,1024982,Koishikawa,Q2666269
+7,1435459,"Yoichi, Hokkaido",Q1348748
+8,601573,Nagaizumi,Q1204459
+9,478963,"Umi, Fukuoka",Q945518
+10,568446,"Awaji, Hyōgo",Q373107
+11,1279226,Tama and Friends,Q2635100
+12,6940869,Isezakichō,Q6079788
+13,12429432,Pippu Station,Q872859
+14,878766,"Tozawa, Yamagata",Q593586
+15,1350694,Nagai Station (Osaka),Q1044114
+16,1157105,"Agano, Niigata",Q390466
+17,6792986,Aizuwakamatsu,Q237699
+18,328306,"Ōmagari, Akita",Q1044019
+19,574267,"Azuchi, Shiga",Q165676
+20,572754,"Minamikawachi District, Osaka",Q1347323
+21,929079,"Fukaura, Aomori",Q1347642
+22,2917439,"Yodogawa-ku, Osaka",Q490594
+23,35894656,Nangō-Nana-Chōme Station,Q8189775
+24,624517,"Agematsu, Nagano",Q374859
+0,629966,Nishikatsura,Q1203881
+1,329250,"Toyooka, Hyōgo",Q696388
+2,12446895,Nayoro Station,Q901406
+3,525598,"Mimasaka, Okayama",Q861279
+4,860871,"Kawaguchi, Niigata",Q1131506
+5,1024982,Koishikawa,Q2666269
+6,1119484,"Mizuho, Tokyo",Q975797
+7,862619,"Miura District, Kanagawa",Q1203937
+8,6940869,Isezakichō,Q6079788
+9,594344,"Kuwana District, Mie",Q1131489
+10,1279226,Tama and Friends,Q2635100
+11,12429432,Pippu Station,Q872859
+12,2004837,Hankyū Itami Line,Q2068416
+13,1350694,Nagai Station (Osaka),Q1044114
+14,502423,"Matsushige, Tokushima",Q1206010
+15,329298,"Shingū, Wakayama",Q823526
+16,6793242,Shūnan,Q643929
+17,574262,"Konan, Shiga",Q857194
+18,312539,Chūō-ku,Q399089
+19,14504859,Nishi Tokyo Bus,Q7040497
+20,16906163,"Sarugakuchō, Chiyoda, Tokyo",Q975067
+21,469451,"Shiroishi, Saga",Q1206958
+22,12412763,Asahikawa Station,Q1073617
+23,2087209,"Aoba-ku, Sendai",Q1042308
+0,479060,"Tachibana, Fukuoka",Q995591
+1,503584,"Kaita, Hiroshima",Q1347353
+2,617262,"Yokohama, Aomori",Q1205910
+3,15104844,"Nakadomari, Aomori",Q1347669
+4,7885683,"Higashinari-ku, Osaka",Q985701
+5,12429432,Pippu Station,Q872859
+6,29050625,Hyūgashi Station,Q5357695
+7,483335,"Kitagawa, Kōchi",Q1350216
+8,799978,"Itako, Ibaraki",Q840598
+9,3744223,"Tainai, Niigata",Q877266
+10,1024982,Koishikawa,Q2666269
+11,483428,"Ino, Kōchi",Q1206590
+12,1913095,"Shirosato, Ibaraki",Q1203068
+13,6967827,"Misato, Kumamoto",Q674749
+14,898169,"Kurihara, Miyagi",Q469189
+15,2619520,"Mizuho-ku, Nagoya",Q1207957
+16,594353,"Kawagoe, Mie",Q1345551
+17,6940869,Isezakichō,Q6079788
+18,594345,"Tōin, Mie",Q1204086
+19,18380298,Harimachō Station,Q5657536
+20,1279226,Tama and Friends,Q2635100
+21,7089599,"Fukuchi, Fukuoka",Q1205781
+22,1350694,Nagai Station (Osaka),Q1044114
+23,2210483,Kitaakita,Q653545
+24,877498,"Kaneyama, Fukushima",Q1205033
+25,7669124,Taneichi Station,Q6543151
+26,3327426,"Echizen, Fukui",Q877941
+27,929095,"Nakatsugaru District, Aomori",Q1205890
+28,1495005,"Maibara, Shiga",Q824020
+29,874502,"Kitasōma District, Ibaraki",Q1076978
+30,459700,"Kiyotake, Miyazaki",Q1132068
+31,5985812,Nasukarasuyama,Q847562
+32,479090,"Kanda, Fukuoka",Q1206876
+33,4217862,Zhongyuan District,Q197937
+34,97353,"Uto, Kumamoto",Q861262
+35,556083,"Inami, Wakayama",Q1203734
+36,12412962,"Kibichūō, Okayama",Q1156219
+37,18416385,Araimachi Station,Q871856
+38,329647,"Kobayashi, Miyazaki",Q861283
+0,12998322,"Hidaka District, Hokkaido",Q1210650
+1,9906102,Iyo-Shirataki Station,Q898985
+2,1024982,Koishikawa,Q2666269
+3,3724515,San'yō-Onoda,Q861239
+4,12446895,Nayoro Station,Q901406
+5,14504859,Nishi Tokyo Bus,Q7040497
+6,1350694,Nagai Station (Osaka),Q1044114
+7,3220871,"Nishiwaga, Iwate",Q1205938
+8,7755679,Kiyosu,Q502407
+9,1473787,"Kumakōgen, Ehime",Q1351134
+10,12429432,Pippu Station,Q872859
+11,3819600,Sōsa,Q858367
+12,6940869,Isezakichō,Q6079788
+13,35894656,Nangō-Nana-Chōme Station,Q8189775
+14,12412763,Asahikawa Station,Q1073617
+15,502457,"Awa, Tokushima",Q791587
+16,1279226,Tama and Friends,Q2635100
+17,864922,"Kamisato, Saitama",Q1345287
+0,1435469,"Nanporo, Hokkaido",Q1355427
+1,12429432,Pippu Station,Q872859
+2,1350694,Nagai Station (Osaka),Q1044114
+3,877641,"Namie, Fukushima",Q1023937
+4,6940869,Isezakichō,Q6079788
+5,1024982,Koishikawa,Q2666269
+6,1279226,Tama and Friends,Q2635100
+0,498740,"Ōmiya-ku, Saitama",Q153629
+1,3824980,Bungo-ōno,Q850366
+2,5225242,"Kuroshio, Kōchi",Q1351626
+3,12446895,Nayoro Station,Q901406
+4,1350694,Nagai Station (Osaka),Q1044114
+5,503585,"Kumano, Hiroshima",Q1204741
+6,898048,"Shibata, Miyagi",Q1204965
+7,617262,"Yokohama, Aomori",Q1205910
+8,11553014,Miyawaka,Q990431
+9,925251,"Kanegasaki, Iwate",Q1205722
+10,35894656,Nangō-Nana-Chōme Station,Q8189775
+11,12429432,Pippu Station,Q872859
+12,6940869,Isezakichō,Q6079788
+13,556167,"Katsuragi, Nara",Q659672
+14,35842582,Nishi-Jūitchōme Station,Q3563700
+15,12412763,Asahikawa Station,Q1073617
+16,572778,"Wazuka, Kyoto",Q1203583
+17,862654,Yugawara,Q532346
+18,1279226,Tama and Friends,Q2635100
+19,478963,"Umi, Fukuoka",Q945518
+0,12429432,Pippu Station,Q872859
+1,328459,Sōka,Q734442
+2,12077724,"Okuizumo, Shimane",Q1156216
+3,1350694,Nagai Station (Osaka),Q1044114
+4,329381,"Uwajima, Ehime",Q845857
+5,12078103,"Yoshika, Shimane",Q279149
+6,6940869,Isezakichō,Q6079788
+7,35894656,Nangō-Nana-Chōme Station,Q8189775
+8,12289520,"Hokuei, Tottori",Q1205642
+9,1024982,Koishikawa,Q2666269
+10,1279226,Tama and Friends,Q2635100
+0,329231,"Shijōnawate, Osaka",Q742160
+1,12446895,Nayoro Station,Q901406
+2,572769,"Tsuzuki District, Kyoto",Q1154678
+3,4531498,"Kama, Fukuoka",Q376901
+4,860817,"Tagami, Niigata",Q1155155
+5,878714,"Higashimurayama District, Yamagata",Q1155511
+6,1024982,Koishikawa,Q2666269
+7,2374361,"Uda, Nara",Q863747
+8,6792992,Kōriyama,Q264206
+9,568350,"Inami, Hyōgo",Q1155194
+10,6967827,"Misato, Kumamoto",Q674749
+11,624438,"Aoki, Nagano",Q615719
+12,328465,"Hatogaya, Saitama",Q868991
+13,6940869,Isezakichō,Q6079788
+14,1279226,Tama and Friends,Q2635100
+15,601515,"Isshiki, Aichi",Q1154666
+16,12429432,Pippu Station,Q872859
+17,870799,"Iwafune, Tochigi",Q1203561
+18,328960,"Mizuho, Gifu",Q782103
+19,870774,"Kamitsuga District, Tochigi",Q1346070
+20,1350694,Nagai Station (Osaka),Q1044114
+21,494450,"Aji, Kagawa",Q4699719
+22,494479,"Utazu, Kagawa",Q1156290
+23,329411,"Tosashimizu, Kōchi",Q573115
+24,629932,"Hayakawa, Yamanashi",Q1204436
+25,478958,"Nakagawa, Fukuoka",Q1206001
+26,12412763,Asahikawa Station,Q1073617
+27,468104,"Aso, Kumamoto",Q733681
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,1024982,Koishikawa,Q2666269
+5,1279226,Tama and Friends,Q2635100
+0,556101,"Taiji, Wakayama",Q1023770
+1,1432635,"Kameda District, Hokkaido",Q1185393
+2,1435426,"Abuta District, Hokkaido",Q1185421
+3,1350694,Nagai Station (Osaka),Q1044114
+4,468122,"Nishihara, Kumamoto",Q961555
+5,7118050,"Yaese, Okinawa",Q1206647
+6,12446895,Nayoro Station,Q901406
+7,574273,"Gamō District, Shiga",Q931658
+8,329508,"Kashima, Ibaraki",Q467471
+9,624453,"Minowa, Nagano",Q1346975
+10,328388,"Takahagi, Ibaraki",Q520428
+11,572722,"Mishima District, Osaka",Q783553
+12,12429432,Pippu Station,Q872859
+13,925234,"Iwate District, Iwate",Q786450
+14,494490,"Mino, Kagawa",Q6868877
+15,6940869,Isezakichō,Q6079788
+16,35894656,Nangō-Nana-Chōme Station,Q8189775
+17,929177,"Sannohe District, Aomori",Q1155883
+18,329097,"Toba, Mie",Q819629
+19,1024982,Koishikawa,Q2666269
+20,1279226,Tama and Friends,Q2635100
+0,860548,"Mikata District, Fukui",Q1352523
+1,7512302,Ibaraichi Station,Q5983705
+2,1427188,Fuefuki,Q849434
+3,35842582,Nishi-Jūitchōme Station,Q3563700
+4,328185,"Hachinohe, Aomori",Q191914
+5,12429432,Pippu Station,Q872859
+6,1024982,Koishikawa,Q2666269
+7,328634,"Itoigawa, Niigata",Q857208
+8,898045,"Ōgawara, Miyagi",Q1155682
+9,624578,"Yamanouchi, Nagano",Q1204468
+10,6940869,Isezakichō,Q6079788
+11,6082336,"Hyōgo-ku, Kobe",Q1078790
+12,877415,"Minamiaizu District, Fukushima",Q1155802
+13,334111,"Izumo, Shimane",Q825166
+14,469420,"Ogi, Saga",Q877227
+15,1350694,Nagai Station (Osaka),Q1044114
+16,468199,"Kanzaki, Saga",Q990392
+17,871959,"Ibaraki, Ibaraki",Q1203390
+18,479114,"Chikujō District, Fukuoka",Q1072644
+19,6082367,"Nagata-ku, Kobe",Q1078801
+20,468123,"Aso District, Kumamoto",Q940481
+21,1435422,"Kutchan, Hokkaido",Q1204596
+22,39481728,Grand Central Plaza,Q11081937
+23,624543,"Omi, Nagano",Q1349060
+24,312539,Chūō-ku,Q399089
+25,898037,"Katta District, Miyagi",Q1131771
+26,864888,"Hatoyama, Saitama",Q925875
+27,1279226,Tama and Friends,Q2635100
+28,328923,"Iida, Nagano",Q841129
+0,601740,"Kamo District, Gifu",Q1348656
+1,12429432,Pippu Station,Q872859
+2,1442896,"Ainan, Ehime",Q980346
+3,1024982,Koishikawa,Q2666269
+4,328636,"Gosen, Niigata",Q858364
+5,35907568,Nangō-Jūsan-Chōme Station,Q3563648
+6,864868,"Iruma District, Saitama",Q1153801
+7,545690,"Ōchi District, Shimane",Q1205009
+8,18392196,Suenohara Station,Q7634398
+9,6940869,Isezakichō,Q6079788
+10,877631,"Kawauchi, Fukushima",Q1354949
+11,864974,"Kita-Katsushika District, Saitama",Q1066336
+12,11553112,"Tōhō, Fukuoka",Q1206282
+13,1279226,Tama and Friends,Q2635100
+14,1438709,"Teshio, Hokkaido",Q1355384
+15,624593,"Kamiminochi District, Nagano",Q1155074
+16,601776,"Ōno District, Gifu",Q31671
+17,864914,"Chichibu District, Saitama",Q1145581
+18,1350694,Nagai Station (Osaka),Q1044114
+19,9083830,"Taiki, Mie",Q1203189
+20,1633157,"Yoshinogawa, Tokushima",Q592500
+21,556060,"Ito District, Wakayama",Q1131309
+22,1715937,"Hamanaka, Hokkaido",Q1185978
+23,574286,"Toyosato, Shiga",Q937037
+24,898051,"Shibata District, Miyagi",Q1131788
+25,601647,"Yōrō District, Gifu",Q1155060
+26,14504859,Nishi Tokyo Bus,Q7040497
+27,929152,"Ōma, Aomori",Q1362378
+28,35894656,Nangō-Nana-Chōme Station,Q8189775
+29,37855207,Reni Takagi,Q617101
+30,11552912,"Chikujō, Fukuoka",Q1072651
+31,874446,"Sakai, Ibaraki",Q1203337
+0,12446895,Nayoro Station,Q901406
+1,454337,"Akan District, Hokkaido",Q599471
+2,1024982,Koishikawa,Q2666269
+3,894621,"Senboku District, Akita",Q733727
+4,873091,"Naka District, Ibaraki",Q1062968
+5,860985,"Kitauonuma District, Niigata",Q1131255
+6,6940869,Isezakichō,Q6079788
+7,601579,"Fuji District, Shizuoka",Q1154962
+8,1279226,Tama and Friends,Q2635100
+9,860764,"Kitakanbara District, Niigata",Q1155539
+10,12429432,Pippu Station,Q872859
+11,1435356,"Setana District, Hokkaido",Q1185969
+12,862571,"Iwafune District, Niigata",Q1155124
+13,1350694,Nagai Station (Osaka),Q1044114
+14,1438887,"Usu District, Hokkaido",Q1185976
+15,860827,"Minamikanbara District, Niigata",Q775317
+16,1438825,"Tokoro District, Hokkaido",Q1186612
+17,574876,"Ika District, Shiga",Q1042353
+18,458952,"Kagoshima District, Kagoshima",Q1043830
+19,925298,"Kamihei District, Iwate",Q1131901
+20,574302,"Higashiazai District, Shiga",Q1042347
+21,35894656,Nangō-Nana-Chōme Station,Q8189775
+22,274797,"Kesen District, Iwate",Q1131906
+0,468043,"Kamoto District, Kumamoto",Q1043839
+1,878772,"Takahata, Yamagata",Q772103
+2,328670,"Obama, Fukui",Q41773
+3,328224,Shiogama,Q496448
+4,1024982,Koishikawa,Q2666269
+5,329404,"Aki, Kōchi",Q417825
+6,328679,"Tsuru, Yamanashi",Q747362
+7,929239,"Higashisonogi, Nagasaki",Q942035
+8,3098686,"Tama-ku, Kawasaki",Q1076769
+9,624574,"Hanishina District, Nagano",Q726661
+10,929314,"Kitamatsuura District, Nagasaki",Q1156155
+11,483421,"Tosa, Kōchi (town)",Q1156499
+12,862656,"Aikawa, Kanagawa",Q1203267
+13,494382,"Kamiukena District, Ehime",Q1206413
+14,1249097,"Moji-ku, Kitakyūshū",Q1045113
+15,478965,"Shime, Fukuoka",Q1206887
+16,6940869,Isezakichō,Q6079788
+17,1438665,"Bifuka, Hokkaido",Q1210495
+18,6793133,Odawara,Q267258
+19,601635,"Ginan, Gifu",Q1204285
+20,14613483,Minamikyūshū,Q19701
+21,6792962,Toyohashi,Q336431
+22,12429432,Pippu Station,Q872859
+23,601702,"Anpachi District, Gifu",Q1204320
+24,624597,"Shimominochi District, Nagano",Q616396
+25,329634,"Hita, Ōita",Q386968
+26,1350694,Nagai Station (Osaka),Q1044114
+27,601474,"Ōguchi, Aichi",Q1203960
+28,556165,"Asuka, Nara",Q752397
+29,385046,Nagatachō,Q1197269
+30,929090,"Nishitsugaru District, Aomori",Q1155867
+31,3682741,"Nagawa, Nagano",Q1346846
+32,329187,"Toyonaka, Osaka",Q467479
+33,451331,"Ōgimi, Okinawa",Q1351188
+34,929162,"Sannohe, Aomori",Q2358935
+35,328941,"Ōgaki, Gifu",Q384926
+36,329480,"Takeo, Saga",Q877220
+37,1438895,"Oiwake, Hokkaido",Q774645
+38,1279226,Tama and Friends,Q2635100
+39,35894656,Nangō-Nana-Chōme Station,Q8189775
+40,601603,"Mori, Shizuoka",Q1345571
+0,329385,"Saijō, Ehime",Q633945
+1,479061,"Hirokawa, Fukuoka",Q1206740
+2,329294,"Kainan, Wakayama",Q841309
+3,329111,"Rittō, Shiga",Q857310
+4,1024982,Koishikawa,Q2666269
+5,24749088,"Longgang District, Huludao",Q1332655
+6,6793072,Kisarazu,Q335427
+7,503515,"Kuga District, Yamaguchi",Q303497
+8,465205,Buzen,Q411745
+9,1442901,"Kasai District, Hokkaido",Q548504
+10,6793035,"Kiryū, Gunma",Q634022
+11,6940869,Isezakichō,Q6079788
+12,328959,"Kani, Gifu",Q853805
+13,328409,"Kanuma, Tochigi",Q390792
+14,1279226,Tama and Friends,Q2635100
+15,4016506,"Hokuto, Hokkaido",Q842301
+16,12429432,Pippu Station,Q872859
+17,80313,Yokohama,Q38283
+18,929151,"Ōhata, Aomori",Q8081493
+19,572761,"Kumiyama, Kyoto",Q1203490
+20,898066,"Shichigahama, Miyagi",Q478272
+21,870820,"Shioya District, Tochigi",Q1346028
+22,494433,"Jōhen, Ehime",Q5840413
+23,878782,"Higashiokitama District, Yamagata",Q1155520
+24,312535,Wards of Japan,Q137773
+25,556007,"Daisen, Tottori",Q1204975
+26,35894656,Nangō-Nana-Chōme Station,Q8189775
+27,2210528,Yurihonjō,Q602903
+28,468106,"Minamioguni, Kumamoto",Q1184473
+29,572780,"Seika, Kyoto",Q1203237
+0,23976475,Toi gold mine,Q3314832
+1,556049,"Iwade, Wakayama",Q579623
+2,884625,Yuza,Q1347481
+3,12446895,Nayoro Station,Q901406
+4,14504859,Nishi Tokyo Bus,Q7040497
+5,1350694,Nagai Station (Osaka),Q1044114
+6,860625,"Uchinada, Ishikawa",Q432027
+7,868371,"Agatsuma District, Gunma",Q642394
+8,870801,"Tsuga, Tochigi",Q852130
+9,572731,"Toyono, Osaka",Q1352491
+10,12429432,Pippu Station,Q872859
+11,6940869,Isezakichō,Q6079788
+12,479002,"Onga District, Fukuoka",Q1156362
+13,41925370,Miyako Sumiyoshi,Q1152042
+14,1024982,Koishikawa,Q2666269
+15,1438917,"Hidaka, Hokkaido",Q1354380
+16,328303,"Oga, Akita",Q633935
+17,1279226,Tama and Friends,Q2635100
+0,2650016,"Kinkō, Kagoshima",Q1206156
+1,12446895,Nayoro Station,Q901406
+2,329624,"Kikuchi, Kumamoto",Q911709
+3,860506,"Sakai, Fukui",Q990342
+4,13056003,"Sakura-ku, Saitama",Q1062270
+5,1024982,Koishikawa,Q2666269
+6,5103028,"Kanagawa-ku, Yokohama",Q1143712
+7,877452,"Yama District, Fukushima",Q1205228
+8,329616,"Hitoyoshi, Kumamoto",Q861292
+9,6940869,Isezakichō,Q6079788
+10,13699860,"Sakuho, Nagano",Q1203700
+11,1279226,Tama and Friends,Q2635100
+12,2192679,"Naka-ku, Yokohama",Q1141068
+13,601514,"Chita District, Aichi",Q767312
+14,12429432,Pippu Station,Q872859
+15,3356305,"Yamashina-ku, Kyoto",Q1076993
+16,1350694,Nagai Station (Osaka),Q1044114
+17,629934,"Minobu, Yamanashi",Q1204435
+18,1438886,"Sōbetsu, Hokkaido",Q670712
+19,3697072,"Tōmi, Nagano",Q840859
+20,7885690,"Miyakojima-ku, Osaka",Q490581
+21,366120,"Naniwa-ku, Osaka",Q861618
+22,1923282,"Higashiyodogawa-ku, Osaka",Q490514
+23,468147,"Ashikita District, Kumamoto",Q1044260
+24,24689362,Fengnan District,Q1332204
+25,568381,"Sayō District, Hyōgo",Q1042060
+26,35894656,Nangō-Nana-Chōme Station,Q8189775
+27,24689348,Lubei District,Q1196502
+28,871934,"Haga District, Tochigi",Q1192087
+0,4179499,"Aogashima, Tokyo",Q1196636
+1,329067,"Ōbu, Aichi",Q384809
+2,459740,"Koyu District, Miyazaki",Q1132169
+3,1428544,"Ishikari District, Hokkaido",Q1185986
+4,451304,"Zama, Kanagawa",Q145333
+5,860816,"Nishikanbara District, Niigata",Q1155139
+6,1024982,Koishikawa,Q2666269
+7,328222,"Ninohe, Iwate",Q695907
+8,545705,"Kanoashi District, Shimane",Q1349420
+9,451362,"Chatan, Okinawa",Q1351759
+10,1435419,"Kyōgoku, Hokkaido",Q1354396
+11,556194,"Yoshino District, Nara",Q1154558
+12,601716,"Motosu District, Gifu",Q1204331
+13,33763493,Gyōdashi Station,Q5625685
+14,624535,"Kiso District, Nagano",Q1348570
+15,624514,"Shimoina District, Nagano",Q726999
+16,1279226,Tama and Friends,Q2635100
+17,6940869,Isezakichō,Q6079788
+18,12429432,Pippu Station,Q872859
+19,1438921,"Biratori, Hokkaido",Q1354447
+20,329638,"Taketa, Ōita",Q850508
+21,1350694,Nagai Station (Osaka),Q1044114
+22,469402,"Kanzaki District, Saga",Q1043882
+23,328114,"Bibai, Hokkaido",Q817271
+24,451353,"Nakagami District, Okinawa",Q1205862
+25,329453,"Dazaifu, Fukuoka",Q728218
+26,3682741,"Nagawa, Nagano",Q1346846
+27,329318,"Kasaoka, Okayama",Q863739
+28,624416,"Karuizawa, Nagano",Q1012064
+29,328390,"Kasama, Ibaraki",Q845851
+30,898231,"Oshika District, Miyagi",Q1131921
+31,629978,Tabayama,Q1204259
+32,478974,"Kasuya District, Fukuoka",Q1206294
+33,624398,"Koumi, Nagano",Q1204222
+34,473387,"Ogasawara, Tokyo",Q1022925
+35,874448,"Sashima District, Ibaraki",Q1075231
+36,459125,"Aira District, Kagoshima",Q1132129
+37,929242,"Higashisonogi District, Nagasaki",Q1156370
+0,1716317,"Tsurui, Hokkaido",Q1186097
+1,329078,"Owariasahi, Aichi",Q694893
+2,1646524,"Shiranuka District, Hokkaido",Q1134233
+3,12446895,Nayoro Station,Q901406
+4,1350694,Nagai Station (Osaka),Q1044114
+5,1438601,"Sorachi District, Hokkaido",Q1185455
+6,874342,"Miho, Ibaraki",Q1203179
+7,1428540,"Shinshinotsu, Hokkaido",Q1355454
+8,1442915,"Hiroo District, Hokkaido",Q1186150
+9,12429432,Pippu Station,Q872859
+10,1438690,"Mashike District, Hokkaido",Q1134336
+11,6940869,Isezakichō,Q6079788
+12,35894656,Nangō-Nana-Chōme Station,Q8189775
+13,1024982,Koishikawa,Q2666269
+14,1279226,Tama and Friends,Q2635100
+15,1438804,"Kiyosato, Hokkaido",Q1365488
+0,328124,"Sunagawa, Hokkaido",Q507147
+1,1438711,"Horonobe, Hokkaido",Q955532
+2,12446895,Nayoro Station,Q901406
+3,877446,"Bandai, Fukushima",Q143208
+4,328532,Shiroi,Q519187
+5,459732,"Shintomi, Miyazaki",Q1206753
+6,556073,"Yura, Wakayama",Q1203250
+7,329323,"Niimi, Okayama",Q873596
+8,16871698,Ōmorimachi Station,Q5362060
+9,328384,"Shimotsuma, Ibaraki",Q533241
+10,1879223,"Tamba, Hyōgo",Q877196
+11,556139,"Heguri, Nara",Q1346790
+12,6793296,"Niihama, Ehime",Q386628
+13,6940869,Isezakichō,Q6079788
+14,1279226,Tama and Friends,Q2635100
+15,329374,"Kan'onji, Kagawa",Q861270
+16,329160,"Jōyō, Kyoto",Q817276
+17,12429432,Pippu Station,Q872859
+18,329224,"Settsu, Osaka",Q643878
+19,1438621,"Wassamu, Hokkaido",Q1357267
+20,629930,"Kajikazawa, Yamanashi",Q1042636
+21,1350694,Nagai Station (Osaka),Q1044114
+22,329229,"Sennan, Osaka",Q838809
+23,1438820,"Saroma, Hokkaido",Q1365521
+24,329258,"Nishiwaki, Hyōgo",Q869020
+25,556061,"Yuasa, Wakayama",Q1345625
+26,468149,"Taragi, Kumamoto",Q1184655
+27,16029489,"Matsukawa, Nagano (Kitaazumi)",Q1204524
+28,594351,"Asahi, Mie",Q598905
+29,929076,"Ajigasawa, Aomori",Q1347560
+0,1854529,"Kami, Hyōgo (Mikata)",Q1155233
+1,1413113,Omaezaki,Q850380
+2,35894656,Nangō-Nana-Chōme Station,Q8189775
+3,10275662,"Minami, Tokushima",Q1351153
+4,12446895,Nayoro Station,Q901406
+5,1350694,Nagai Station (Osaka),Q1044114
+6,1858969,"Shisō, Hyōgo",Q877216
+7,7868029,"Noto, Ishikawa",Q1349388
+8,12429432,Pippu Station,Q872859
+9,6940869,Isezakichō,Q6079788
+10,12413111,"Misaki, Okayama",Q1156100
+11,12412763,Asahikawa Station,Q1073617
+12,1024982,Koishikawa,Q2666269
+13,574249,"Yasu, Shiga",Q611642
+14,1279226,Tama and Friends,Q2635100
+15,3795532,"Shin'onsen, Hyōgo",Q1154955
+0,4554462,"Happō, Akita",Q1205948
+1,12429432,Pippu Station,Q872859
+2,874510,"Kunimi, Fukushima",Q1205612
+3,12446895,Nayoro Station,Q901406
+4,14504859,Nishi Tokyo Bus,Q7040497
+5,1350694,Nagai Station (Osaka),Q1044114
+6,624550,"Toyoshina, Nagano",Q11634192
+7,2209841,"Shōnai, Yamagata",Q1348827
+8,39754394,Sakaechō Station (Tokyo),Q11535731
+9,6940869,Isezakichō,Q6079788
+10,35894656,Nangō-Nana-Chōme Station,Q8189775
+11,1024982,Koishikawa,Q2666269
+12,329288,"Gose, Nara",Q847334
+13,1279226,Tama and Friends,Q2635100
+0,1435487,"Kabato District, Hokkaido",Q1186098
+1,1435445,"Shakotan District, Hokkaido",Q1185388
+2,12429432,Pippu Station,Q872859
+3,7885706,"Tsurumi-ku, Osaka",Q490526
+4,12446895,Nayoro Station,Q901406
+5,1350694,Nagai Station (Osaka),Q1044114
+6,983611,"Isogo-ku, Yokohama",Q1141223
+7,10675496,Ōi,Q857798
+8,478967,"Shingū, Fukuoka",Q179185
+9,863120,Onjuku,Q648466
+10,929308,"Shikamachi, Nagasaki",Q857910
+11,6940869,Isezakichō,Q6079788
+12,2654570,"Sakyō-ku, Kyoto",Q1321832
+13,601529,"Nishikamo District, Aichi",Q1154646
+14,1024982,Koishikawa,Q2666269
+15,2610223,Chibi Maruko-chan,Q701050
+16,1279226,Tama and Friends,Q2635100
+17,312535,Wards of Japan,Q137773
+0,877609,"Hirono, Fukushima",Q1354828
+1,1735533,"Rausu, Hokkaido",Q1208391
+2,12446895,Nayoro Station,Q901406
+3,894534,"Kosaka, Akita",Q1307166
+4,479078,"Soeda, Fukuoka",Q1205805
+5,1435304,"Esashi, Hokkaido (Hiyama)",Q1348738
+6,5175638,Minamiaizu,Q1205058
+7,1502610,"Minamiechizen, Fukui",Q1347526
+8,1024982,Koishikawa,Q2666269
+9,329209,"Izumisano, Osaka",Q852018
+10,328385,Jōsō,Q851149
+11,898047,"Murata, Miyagi",Q1347432
+12,451347,"Kin, Okinawa",Q1350738
+13,1435470,"Naie, Hokkaido",Q1355445
+14,478964,"Sasaguri, Fukuoka",Q1206130
+15,328464,"Iruma, Saitama",Q696925
+16,6940869,Isezakichō,Q6079788
+17,328954,"Minokamo, Gifu",Q857305
+18,1279226,Tama and Friends,Q2635100
+19,12429432,Pippu Station,Q872859
+20,328448,"Honjō, Saitama",Q873565
+21,1350694,Nagai Station (Osaka),Q1044114
+22,328522,"Kamogawa, Chiba",Q387211
+23,5361334,Omitama,Q430584
+24,9285423,Wakōshi Station,Q128298
+25,1438802,"Shari, Hokkaido",Q1365478
+26,328318,"Kaminoyama, Yamagata",Q770187
+27,328620,"Sanjō, Niigata",Q817273
+28,329693,"Fuchū, Hiroshima",Q686775
+29,477810,"Yasugi, Shimane",Q851114
+30,6793353,"Yatsushiro, Kumamoto",Q734479
+31,459956,"Ibusuki, Kagoshima",Q19712
+32,874354,"Sakuragawa, Ibaraki",Q990350
+0,12429432,Pippu Station,Q872859
+1,12446895,Nayoro Station,Q901406
+2,1350694,Nagai Station (Osaka),Q1044114
+3,6940869,Isezakichō,Q6079788
+4,601703,"Ibigawa, Gifu",Q1204046
+5,328430,"Fujioka, Gunma",Q596486
