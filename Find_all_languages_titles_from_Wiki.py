@@ -19,8 +19,8 @@ output_path_names = sys.argv[2]
 output_path_ids = sys.argv[3]
 
 # ## Import dataset of interest :Needs a 'wk:page' column with wiki names
-if os.path.isfile(output_path_names):
-    print 'File %s already exists, skipping...' % output_path_names
+if os.path.isfile(output_path_names) and os.path.isfile(output_path_ids):
+    print 'File %s, %s already exists, skipping...' % (output_path_names,output_path_ids)
     sys.exit()
 
 wof_latest=read_data(input_path)
@@ -62,7 +62,7 @@ for index, row in wof_latest.iterrows():
 dictionary_wof_languages={}
 for key, value in language_dictionary.iteritems():
     try:
-        a = key.encode('utf8')
+        a = key
         new_key=mapping_dic_wof_name[a]
         dictionary_wof_languages.update({new_key:value})
     except KeyError:
