@@ -31,9 +31,9 @@ python Request_Wikipedia_Wikidata_from_API.py input_data.csv output_data.csv
 ```
 
 ### Available language translations
-This script allows you to find all the localized names from Wikipedia for each of your entries. Takes as an input a csv file with a column `wk:page` where all the Wikipedia titles will be stored. It returns a json file in a dictionary format (key: value pairs) with each name as keys and the localized names as values of every key. To run for example:
+This script allows you to find all the localized names from Wikipedia for each of your entries. Takes as an input a csv file with a column `wk:page` where all the Wikipedia titles will be stored and a `id` or `wof:id` column with the unique identifiers. It returns two json files in a dictionary format (key: value pairs). The first output includes as keys the `wk:page` names and the localized names as values of every key. The second output includes as keys the ids (`wof:id` or just `id`) and the localized names as values of every key. To run for example:
 ```
-python Find_all_languages_titles_from_Wiki.py input_data.csv output_data.json
+python Find_all_languages_titles_from_Wiki.py input_data.csv output_data_names.json output_data_ids.json
 ```
 
 ### All the links (within Wikipedia) pointing to the page of interest (Linkshere)
