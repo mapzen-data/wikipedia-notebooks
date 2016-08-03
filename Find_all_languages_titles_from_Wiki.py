@@ -62,11 +62,16 @@ for index, row in wof_latest.iterrows():
 dictionary_wof_languages={}
 for key, value in language_dictionary.iteritems():
     try:
+        a = key.encode('utf8')
+        new_key=mapping_dic_wof_name[a]
+        dictionary_wof_languages.update({new_key:value})
+    except UnicodeDecodeError:
         a = key
         new_key=mapping_dic_wof_name[a]
         dictionary_wof_languages.update({new_key:value})
     except KeyError:
-        pass
+    	pass
+    	
 # ## Create dictionary of languages with wof:id
 
 with open(output_path_ids, 'w') as outfile:
